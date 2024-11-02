@@ -77,90 +77,48 @@ export const mekanikYollar = {
 export const StaticPages = [
   {
     id: 1,
-    title: "PLATFORM",
-    link: "platform",
-    bg: "gradientAccentToDark",
-    pages: [
-      { id: 1, title: "Platform Hakkında", link: "platform/hakkinda" },
-      { id: 2, title: "Kurucumuz", link: "platform/kurucumuz" },
-    ],
+    title: "HAKKIMIZDA",
+    link: "hakkimizda",
+    pages: [{ id: 1, title: "Nuray Özel Arkun", link: "hakkimizda/nuray" }],
   },
   {
     id: 2,
-    title: "OKULLAR",
-    link: "okullar",
-    bg: "gradientGreenToBlack",
+    title: "DANIŞMANLIK",
+    link: "danismanlik",
     pages: [
-      { id: 1, title: "Koçluk Okulu", link: "okullar/kocluk" },
-      { id: 2, title: "Eğitmenlik Okulu", link: "okullar/egitmenlik" },
-      { id: 3, title: "Sistemik Dizim Okulu", link: "okullar/sistemik-dizim" },
-      { id: 4, title: "Enneagram Okulu", link: "okullar/enneagram" },
+      {
+        id: 1,
+        title: "Koçluk",
+        link: "danismanlik/kurumsal",
+      },
+      { id: 2, title: "Bio Enerji", link: "hizmetlerimiz/bio-enerji" },
+      {
+        id: 3,
+        title: "Reiki",
+        link: "danismanlik/reiki",
+      },
+      {
+        id: 4,
+        title: "Wellness",
+        link: "danismanlik/wellness",
+      },
     ],
   },
   {
     id: 3,
-    title: "SINAVLARA HAZIRLIK",
-    link: "sinavlara-hazirlik",
-    bg: "gradientAccentOppositeToBlack",
-    pages: [
-      { id: 1, title: "MYK Seviye 6", link: "sinavlara-hazirlik/myk" },
-      {
-        id: 2,
-        title: "ICF Yeterlilik Sınavı",
-        link: "sinavlara-hazirlik/icf",
-      },
-    ],
-  },
-  {
-    id: 4,
     title: "ATÖLYELER",
     link: "atolyeler",
-    bg: "gradientRedToBlack",
     pages: [
       {
         id: 1,
-        title: "Farkındalık Geliştirme",
-        link: "atolyeler/farkindalik-gelistirme",
+        title: "Aile Dizimi ve Sistemik Dizimler",
+        link: "atolyeler/aile-dizimi",
       },
       {
         id: 2,
-        title: "Sistemik Dizim",
-        link: "atolyeler/sistemik-dizim",
+        title: "Kişisel Gelişim",
+        link: "atolyeler/kişisel-gelisim",
       },
-    ],
-  },
-  {
-    id: 5,
-    title: "HİZMETLERİMİZ",
-    link: "hizmetlerimiz",
-    bg: "gradientMagentaToBlack",
-    pages: [
-      {
-        id: 1,
-        title: "Kurumsal Hizmetler",
-        link: "hizmetlerimiz/kurumsal",
-      },
-      { id: 2, title: "Bireysel Hizmetler", link: "hizmetlerimiz/bireysel" },
-      {
-        id: 3,
-        title: "Sosyal Sorumluluk",
-        link: "hizmetlerimiz/sosyal-sorumluluk",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "BLOG",
-    link: "blog",
-    pages: [
-      { id: 1, title: "Koçluk Okulu Bloğu", link: "blog/kocluk" },
-      { id: 2, title: "Eğitmenlik Okulu Bloğu", link: "blog/egitmenlik" },
-      {
-        id: 3,
-        title: "Sistemik Dizim Okulu Bloğu",
-        link: "blog/sistemik-dizim",
-      },
-      { id: 4, title: "Enneagram Okulu Bloğu", link: "blog/enneagram" },
     ],
   },
   {
@@ -170,12 +128,21 @@ export const StaticPages = [
     pages: [
       {
         id: 1,
-        title: "social@metasistemik.com",
-        link: "mailto:social@metasistemik.com",
+        title: "social@nrydanismanlik.com",
+        link: "mailto:social@nrydanismanlik.com",
       },
-      { id: 2, title: "0 (543) 464 9144", link: "tel:+905434649144" },
+      { id: 2, title: "0 (555) 111 1111", link: "tel:+905551111111" },
       { id: 3, title: "Çerez Politikası", link: "iletisim/cerez" },
       { id: 4, title: "K.V.K.K.", link: "iletisim/kvkk" },
+    ],
+  },
+  {
+    id: 9,
+    title: "BLOG",
+    link: "blog",
+    pages: [
+      { id: 1, title: "Koçluk", link: "blog/kocluk" },
+      { id: 2, title: "Kişisel Gelişim", link: "blog/kişisel-gelişim" },
     ],
   },
 ];
@@ -187,7 +154,7 @@ export const socialMedia = [
     name: "facebook",
     alt: "facebook logo",
     title: "facebook sayfamıza bekleriz",
-    link: "https://www.facebook.com/metasistemik",
+    link: "https://www.facebook.com/nuray.ozel1",
   },
   {
     id: 2,
@@ -195,23 +162,7 @@ export const socialMedia = [
     name: "instagram",
     alt: "instagram logo",
     title: "instagram sayfamıza bekleriz",
-    link: "https://www.instagram.com/metasistemik",
-  },
-  {
-    id: 3,
-    svgIcon: "youtube",
-    name: "youtube",
-    alt: "youtube logo",
-    title: "youtube sayfamıza bekleriz",
-    link: "https://www.youtube.com/@metasistemik",
-  },
-  {
-    id: 4,
-    svgIcon: "linkedin",
-    name: "linkedin",
-    alt: "linkedin logo",
-    title: "linkedin sayfamıza bekleriz",
-    link: "https://www.linkedin.com/company/metasistemik/about/?viewAsMember=true",
+    link: "https://www.instagram.com/nrydanismanlikmerkezi",
   },
 ];
 

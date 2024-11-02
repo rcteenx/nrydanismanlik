@@ -44,28 +44,10 @@ export default function Home() {
       <Hero />
       <SubHero img={metasistemikNedir} />
       <Schools />
-      <WhatWeGain
-        img={metasistemik1}
-        img2={metasistemik2}
-        gain={whatwegain}
-        gain2={whatwegain2}
-      />
+
       <Workshops />
-      <section className="relative w-100 h-12 md:h-24 ">
-        <div className="curvedR"></div>
-      </section>
-      <Certificates
-        img={sertifikaMetasistemik}
-        img2={sertifikaUluslararasi}
-        mekanikYollar={mekanikYollar}
-      />
-      <section className="relative w-100 h-12 md:h-24">
-        <div className="curved"></div>
-      </section>
 
       <SignupBar />
-      <HomeServices />
-      <BlogBar />
 
       <SocialMedia />
     </>

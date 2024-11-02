@@ -4,55 +4,37 @@ export default function Workshops() {
   return (
     <section id="workshops" className="">
       <div className="container mx-auto my-8 lg:my-24">
-        <div className="bg-gradient-to-br from-accent via-accent-dark-3 to-accent-dark-7 p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
+        <div className="bg-gradient-to-br from-purple-400 to-purple-600 p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
           <h2 className=" text-accent-light-7 lg:text-6xl">
-            ATÖLYE VE ETKİNLİKLER
+            Çin Tıbbı Hacamat ve Kupa Terapisi
           </h2>
-          <p className=" text-accent-light-8">
-            Aşağıdaki haftalık online (canlı) çalışma gruplarımız genel katılıma
-            açıktır:
-          </p>
-          <p> (Sürekli çalışma grupları)</p>
-          <ul className="my-4 text-accent text-base flex flex-col md:flex-row gap-4 ">
+          <div className=" mx-auto max-w-2xl text-accent-light-8 ">
+            <p>
+              Geçmişten geleceği hacamat ve kupa terapisi soğuk algınlığında
+              lenf ödeme bedenden uzaklaştırmada ve ağrılarda çok etkili olduğu
+              gözlenmiş ve tercih edilmiştir.
+            </p>
+            <p>
+              Belirli seanslarla uygulanan kupa terapisi ve hacamat İbni
+              Sina'nın "El Kanun Fit Tıb" kitabında vurgulanarak bahsedilmiştir.
+            </p>
+          </div>
+          <ul className="my-4 text-xpink text-base flex flex-col md:flex-row gap-4 ">
             <li className=" w-full border p-4 rounded-md shadow-lg bg-white hover:bg-gray-100 ">
-              <h4>
-                <a href="/atolyeler/farkindalik-gelistirme">
-                  Farkındalık Geliştirme ve Sistemik Çalışma Grubu
-                </a>
-              </h4>
-              <ul className="my-4 flex items-center justify-center gap-4  ">
-                <li className="px-4 py-2 bg-accent-opposite text-white hover:bg-accent-dark-5 rounded-xl cursor-pointer shadow-lg">
-                  <a href="https://wa.me/905443087402?text=bilgi">
-                    Kayıt İçin
-                    <IconComponent
-                      name="whatsapp"
-                      size={18}
-                      color="white"
-                      className="inline-block ml-2"
-                    />
-                  </a>
-                </li>
-              </ul>
+              <h3>HACAMAT</h3>
+              <p className="px-2">
+                Deri altına yerleşen ve kas içine fibroblast oluşturarak
+                bedendeki farklı rahatsızlıklara sebep olur. Kupa terapisi ve
+                hacamatla bu fibroplastlar açılabilir. Bir bu bedenin en iyi
+                olma halidir.
+              </p>
             </li>
             <li className=" w-full border p-4 rounded-md shadow-lg bg-white hover:bg-gray-100">
-              <h4>
-                <a href="/atolyeler/sistemik-dizim">
-                  Sistemik Dizim Çalışma Grubu
-                </a>
-              </h4>
-              <ul className="my-4 flex items-center justify-center gap-4  ">
-                <li className="px-4 py-2 bg-accent-opposite text-white hover:bg-accent-dark-5 rounded-xl cursor-pointer shadow-lg">
-                  <a href="https://wa.me/905443087402?text=bilgi">
-                    Kayıt İçin
-                    <IconComponent
-                      name="whatsapp"
-                      size={18}
-                      color="white"
-                      className="inline-block ml-2"
-                    />
-                  </a>
-                </li>
-              </ul>
+              <h3>KUPA TERAPİSİ</h3>
+              <p>
+                Kas için ayar değişmiş ölmüş, atık uyuşuk kan hacamatla dışarı
+                atılabilmektedir.
+              </p>
             </li>
           </ul>
           <h3>Birlikte Çalışıyoruz</h3>

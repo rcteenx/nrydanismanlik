@@ -9,7 +9,7 @@ const siteMetadata = {
     "Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
   language: "tr-TR",
   siteUrl: "https://metasistemik.com",
-  siteLogo: "/logo-metasistemik.webp",
+  siteLogo: "/nry-single.png",
   email: "social@metasistemik.com",
 };
 

@@ -18,11 +18,11 @@ module.exports = {
       },
       colors: {
         // primary: "#8c8c8c",
-        primary: "#242a2b",
+        primary: "#9900ff",
         // primary: "#1EF2EC",
         secondary: "#808080",
         accent: {
-          DEFAULT: "#1cbccf",
+          DEFAULT: "#9999ff",
           light: {
             1: "#33C3D4",
             2: "#49C9D9",
@@ -49,6 +49,12 @@ module.exports = {
           black: "#030303",
         },
         grey: "#e0f0f1",
+        xviolet: "#ccccff",
+        xviolet2: "#9999ff",
+        xpurple: "#9900ff",
+        xpink: "#ff00cc",
+        xred: "#ff3333",
+        xorange: "#fec200",
       },
       boxShadow: {
         custom1: "0px 2px 40px 0px rgba(8, 70, 78, 0.08)",
@@ -58,7 +64,7 @@ module.exports = {
         kocluk1: "url('/assets/images/kocluk-1.jpg')",
         okullarimiz1: "url('/assets/images/okullarimiz-1.jpg')",
         bilincSonrasi: "url('/assets/images/bilinc-sonrasi.jpg')",
-        services: "url('/assets/images/bg.svg')",
+        services: "url('/assets/images/bg-atolye.png')",
       }),
     },
   },

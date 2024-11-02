@@ -7,69 +7,57 @@ export default function Schools2() {
       <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[328px] flex items-center xl:items-start -z-10">
         <div className="container mx-auto">
           <div className=" xl:px-12  flex items-center flex-col xl:flex-row xl:mb-[60px]">
-            <h2 className="xl:pr-8 xl:border-r text-3xl xl:text-5xl text-white">
-              OKULLARIMIZ
+            <h2 className="xl:pr-8 text-3xl xl:text-5xl text-white">
+              ATÖLYELERİMİZ
             </h2>
-            <div className="xl:pl-8 flex-1 text-center xl:text-left">
-              <p>
-                Tüm Okullarımızda, Farkındalık Geliştirme ve Sistemik Çalışmanın
-                dönüştürücü ilke ve yöntemlerini kullanarak, yüksek standartları
-                karşılayan sertifika programları sunuyoruz.
-              </p>
-            </div>
           </div>
         </div>
       </div>
 
       <div className="container mx-auto xl:-mt-36 ">
-        <h3 className="m-4 p-4 bg-gray-300 rounded-xl text-center text-2xl md:text-4xl gradientChoose md:border">
-          OKULUNUZU SEÇİN
-        </h3>
         <div className="xl:mx-8 grid md:grid-cols-2 xl:grid-cols-4 gap-8 px-8 xl:px-0 ">
-          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientAccentToDark gradientTransition ">
+          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientVioletToPurple gradientTransition ">
             <a href="/okullar/kocluk">
               <div className=" flex justify-center items-center">
                 <IconComponent name="school" size={64} color="white" />
               </div>
-              <h3 className="mb-[10px] font-semibold">Koçluk Okulu</h3>
+              <h3 className="mb-[10px] font-semibold">Koçluk</h3>
               <p className=" font-light leading-normal max-w-[300px] text-sm">
-                Kalıcı dönüşüme doğru yönlendirmek için uzmanlaşın.
+                Potansiyelinizi Ortaya Çıkarın
               </p>
             </a>
           </div>
 
-          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientGreenToBlack gradientTransition">
+          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientPurpleToPink gradientTransition">
             <a href="/okullar/egitmenlik">
               <div className=" flex justify-center items-center">
-                <IconComponent name="teacher" size={64} color="white" />
+                <IconComponent name="aileDizimi" size={64} color="white" />
               </div>
-              <h3 className="mb-[10px] font-semibold">Eğitmenlik Okulu</h3>
+              <h3 className="mb-[10px] font-semibold">Aile Dizimi</h3>
               <p className=" font-light leading-normal max-w-[300px] text-sm">
-                Dönüşümsel öğrenme ortamlarının dinamik kolaylaştırıcı ve lider
-                olun.
+                Rutine sıkışmış mı hissediyorsunuz?
               </p>
             </a>
           </div>
-          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientAccentOppositeToBlack gradientTransition">
+          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientPinkToRed gradientTransition">
             <a href="/okullar/sistemik-dizim">
               <div className=" flex justify-center items-center">
                 <IconComponent name="systemic" size={64} color="white" />
               </div>
-              <h3 className="mb-[10px] font-semibold">Sistemik Dizim</h3>
+              <h3 className="mb-[10px] font-semibold">Bio Enerji</h3>
               <p className=" font-light leading-normal max-w-[300px] text-sm">
-                Bireyler, gruplar ve organizasyon sistemleri içindeki gizli
-                dinamikler
+                İçinizdeki doğal şifacıyı ortaya çıkarın
               </p>
             </a>
           </div>
-          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientRedToBlack gradientTransition">
+          <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientRedToOrange gradientTransition">
             <a href="/okullar/enneagram">
               <div className=" flex justify-center items-center">
-                <MySvgIcon />
+                <IconComponent name="reiki" size={64} color="white" />
               </div>
-              <h3 className="mb-[10px] font-semibold">Enneagram Okulu</h3>
+              <h3 className="mb-[10px] font-semibold">Reiki</h3>
               <p className=" font-light leading-normal max-w-[300px] text-sm">
-                Derinlemesine kişisel anlayış ve gelişime dönüştürücü yaklaşım
+                Dengenizi ve sağlığınızı bulun
               </p>
             </a>
           </div>

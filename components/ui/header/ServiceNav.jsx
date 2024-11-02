@@ -13,18 +13,17 @@ export default function MobileMenu() {
   }
 
   return (
-    <div className="w-32 md:w-48 px-4 flex justify-end">
+    <div className="w-12 lg:w-24 xl:w-32  px-4 flex justify-end">
       <nav id="service-menu">
-        <ul className="hidden xl:flex space-x-4 text-sm m-2">
-          <li className="gradientAccentToDark gradientTransition text-white rounded-xl py-1 px-3">
+        <ul className="hidden lg:flex space-x-2 text-sm m-1">
+          <li className="gradientPinkToPurple hover:gradientPurpleToPink gradientTransition text-white rounded-xl py-2 px-4 ">
             <a href="/blog">Blog</a>
           </li>
-          <li className="rounded-xl  hover:bg-gray-300 py-1 px-3">
+          {/* <li className="rounded-xl hover:gradientPurpleToPink py-1 px-1 text-xpurple">
             <a href="/iletisim">İletişim</a>
-          </li>
+          </li> */}
         </ul>
-
-        <section className="flex xl:hidden cursor-pointer">
+        <section className="flex lg:hidden cursor-pointer">
           <div className="space-y-2 h-8 w-8" onClick={handleClick}>
             <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
             <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>

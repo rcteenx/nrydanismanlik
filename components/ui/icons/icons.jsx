@@ -25,13 +25,16 @@ import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import { SiDwavesystems } from "react-icons/si";
 import { AiFillCheckCircle } from "react-icons/ai";
 
+import { MdFamilyRestroom, MdOutlineEnergySavingsLeaf } from "react-icons/md";
+
 const iconTypes = {
+  aileDizimi: MdFamilyRestroom,
+  reiki: MdOutlineEnergySavingsLeaf,
   location: VscLocation,
   whatsapp: FaWhatsapp,
   school: IoMdSchool,
   teacher: LiaChalkboardTeacherSolid,
   systemic: SiDwavesystems,
-  enegram: AiFillCheckCircle,
   facebook: FaFacebook,
   instagram: FaInstagram,
   github: FaGithub,

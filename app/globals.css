@@ -63,6 +63,24 @@
     @apply bg-gradient-to-r from-accent via-accent-light-7 to-accent-dark-7;
   }
   /*  List bg */
+  .gradientViolet400ViaViolet300ToViolet200 {
+    @apply bg-gradient-to-b from-violet-400 via-violet-300 to-violet-200 text-white;
+  }
+  .gradientPinkToPurple {
+    @apply bg-gradient-to-b from-xpink to-xpurple text-white;
+  }
+  .gradientVioletToPurple {
+    @apply bg-gradient-to-b from-xviolet to-xpurple text-white;
+  }
+  .gradientPurpleToPink {
+    @apply bg-gradient-to-b from-xpurple to-xpink text-white;
+  }
+  .gradientPinkToRed {
+    @apply bg-gradient-to-b from-xpink to-xred text-white;
+  }
+  .gradientRedToOrange {
+    @apply bg-gradient-to-b from-xred to-xorange text-white;
+  }
   .gradientAccentToDark {
     @apply bg-gradient-to-br from-accent via-accent-dark-5 to-accent-dark-9 text-white;
   }
