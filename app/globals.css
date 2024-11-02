@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Css Base for this project */
+@layer base {
+  body {
+    @apply text-sm md:text-base font-base text-primary;
+  }
+  h1 {
+    @apply my-6 tracking-normal text-2xl font-bold md:text-3xl;
+  }
+  h2 {
+    @apply text-xl font-bold md:text-2xl my-4;
+  }
+  h3 {
+    @apply text-lg font-bold md:text-xl my-2;
+  }
+  h4 {
+    @apply text-lg font-semibold;
+  }
+  h4,
+  h5,
+  h6 {
+    @apply my-1;
+  }
+  p {
+    @apply text-sm md:text-base my-1;
+  }
+  ul li {
+    @apply text-base my-1;
+  }
+
+  article h2 {
+    @apply text-blue-900;
+  }
+  article h3 {
+    @apply text-blue-800;
+  }
+}
+
+@layer components {
+  .btn-hero {
+    @apply flex justify-center items-center gap-2 px-8 py-2 md:px-12 md:py-4  md:text-lg leading-none rounded-full;
+  }
+  .input {
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-accent pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-accent max-sm:rounded-full;
+  }
+  .gradientLogo {
+    @apply bg-gradient-to-r from-black to-accent;
+  }
+  .gradientChoose {
+    @apply bg-gradient-to-r from-white via-accent to-accent-dark-7 text-black;
+  }
+  .gradientSchools {
+    @apply bg-gradient-to-r from-accent via-accent-light-7 to-accent-dark-7;
+  }
+  /*  List bg */
+  .gradientAccentToDark {
+    @apply bg-gradient-to-br from-accent via-accent-dark-5 to-accent-dark-9 text-white;
+  }
+  .gradientGreenToBlack {
+    @apply bg-gradient-to-br from-green-600 to-black text-white;
+  }
+  .gradientAccentOppositeToBlack {
+    @apply bg-gradient-to-br from-accent-opposite to-black text-white;
+  }
+  .gradientRedToBlack {
+    @apply bg-gradient-to-br from-red-500 to-black text-white;
+  }
+  .gradientMagentaToBlack {
+    @apply bg-gradient-to-br from-[#FF00FF] to-black text-white;
+  }
+  .gradientTransition {
+    @apply hover:scale-110 transition duration-300 ease-out
+      cursor-pointer;
+  }
+}
+
+@layer utilities {
+  .container-p {
+    @apply px-4 md:px-8 lg:px-12;
+  }
+
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
+  }
+
+  .info-text {
+    @apply text-lg leading-8;
+  }
+  .bg-livechat {
+    background-image: url("/assets/images/bg-hero-1920-480.png");
+  }
+}
+
+.box-shadow {
+  @media screen and (min-width: 1024px) {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
+      0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+.containerSvg {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+}
+.svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.redWave {
+  stroke: none;
+  fill: red;
+}
+
+.skewed {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333366;
+  opacity: 0.5;
+  z-index: 0;
+  transform: skewY(-8deg);
+  transform-origin: top left;
+}
+.curved {
+  position: relative;
+  background: #333366;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 30% 100%;
+}
+
+.curvedR {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.curvedR::after {
+  content: "";
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #333366;
+  opacity: 0.5;
+}
+
+.imageBG {
+  background-position: top right;
+  background-image: url("/assets/images/hero-640-480-1.png");
+}
+
+.curved {
+  position: relative;
+  background: #1cbccf;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 30% 100%;
+}
+
+.curvedR {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.curvedR::after {
+  content: "";
+  border-top-left-radius: 50% 100%;
+  border-top-right-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #1cbccf;
+  opacity: 0.5;
+}
+
+.dvVideo {
+  @apply bg-black p-4 rounded-2xl;
+}
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.hideMenuNav {
+  display: none;
+}
+.showMenuNav {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1280px;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 10;
+}
