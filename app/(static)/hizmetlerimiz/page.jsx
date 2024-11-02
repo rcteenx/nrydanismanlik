@@ -10,7 +10,7 @@ export async function generateMetadata() {
 
 export default function StaticPage() {
   return (
-    <>
+    <>y
       <PageContent h2Title="Hayatınızı ve Organizasyonunuzu Dönüştürün">
         <p>
           Metasistemik olarak derin dönüşümün tohumlarının her birimizin içinde
