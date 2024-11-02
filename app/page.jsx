@@ -14,8 +14,6 @@ import {
   sertifikaUluslararasi,
 } from "@/public/assets/images";
 
-import { hero1, mykLogo, icfLogo } from "@/public/assets/logo";
-
 import Hero from "@/components/sections/home/1-hero";
 import SubHero from "@/components/sections/home/1b-sub-hero";
 // import InfoBar from "@/components/sections/home/3-info-bar";
@@ -65,7 +63,6 @@ export default function Home() {
         <div className="curved"></div>
       </section>
 
-      <Exams img={mykLogo} img2={icfLogo} />
       <SignupBar />
       <HomeServices />
       <BlogBar />

@@ -1,8 +1,5 @@
-import ServicesPrograms from "@/components/sections/services/programs";
-
 import PageContent from "@/components/templates/pageContent";
 
-import ServicesWhy from "@/components/sections/services/why";
 import SocialMedia from "@/components/sections/common/z-contact";
 
 export async function generateMetadata() {
@@ -14,8 +11,6 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <ServicesPrograms />
-
       <PageContent h2Title="Hayatınızı ve Organizasyonunuzu Dönüştürün">
         <p>
           Metasistemik olarak derin dönüşümün tohumlarının her birimizin içinde
@@ -54,8 +49,6 @@ export default function StaticPage() {
           </li>
         </ul>
       </PageContent>
-
-      <ServicesWhy />
 
       <SocialMedia />
     </>
