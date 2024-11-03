@@ -1,4 +1,4 @@
-export default function SubHero({ img }) {
+export default function SubHero({}) {
   return (
     <section id="subhero" className="container mx-auto px-4 my-8 md:p-0">
       <div className="p-4 lg:p-8 text-center lg:text-4xl gradientViolet400ViaViolet300ToViolet200 sm:rounded-xl ">

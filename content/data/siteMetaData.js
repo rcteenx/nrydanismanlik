@@ -1,16 +1,13 @@
 // please update required information
 const siteMetadata = {
-  title:
-    "Metasistemik - Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
+  title: "NRY Danışmanlık",
   author: "rcteenx",
-  headerTitle:
-    "Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
-  description:
-    "Farkındalığa Dayalı Kişisel Dönüşümün Sistemik Çapta Değişimle Gerçekleştiği Yer",
+  headerTitle: "... ",
+  description: "... ",
   language: "tr-TR",
-  siteUrl: "https://metasistemik.com",
+  siteUrl: "https://nrydanismanlik.com",
   siteLogo: "/nry-single.png",
-  email: "social@metasistemik.com",
+  email: "info@nrydanismanlik.com",
 };
 
 module.exports = siteMetadata;

@@ -1,5 +1,5 @@
 export const barInfo = {
-  h2: "Metasistemik: Farkındalık Geliştirme ve Sistemik Çalışmaları",
+  h2: "Nry Danışmanlık: Farkındalık Geliştirme ve Sistemik Çalışmaları",
   items: [
     {
       title: "Çalışma",
@@ -128,21 +128,12 @@ export const StaticPages = [
     pages: [
       {
         id: 1,
-        title: "social@nrydanismanlik.com",
-        link: "mailto:social@nrydanismanlik.com",
+        title: "info@nrydanismanlik.com",
+        link: "mailto:info@nrydanismanlik.com",
       },
       { id: 2, title: "0 (555) 111 1111", link: "tel:+905551111111" },
       { id: 3, title: "Çerez Politikası", link: "iletisim/cerez" },
       { id: 4, title: "K.V.K.K.", link: "iletisim/kvkk" },
-    ],
-  },
-  {
-    id: 9,
-    title: "BLOG",
-    link: "blog",
-    pages: [
-      { id: 1, title: "Koçluk", link: "blog/kocluk" },
-      { id: 2, title: "Kişisel Gelişim", link: "blog/kişisel-gelişim" },
     ],
   },
 ];

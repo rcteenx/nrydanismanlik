@@ -2,7 +2,7 @@ import { StaticPages } from "@/content/data";
 
 export default function FooterLinks() {
   return (
-    <div className="flex flex-col lg:flex-row justify-between lg:items-start gap-8 text-center lg:text-left">
+    <div className="flex flex-col md:flex-row justify-between  gap-8 text-center md:text-left">
       {StaticPages.map((pg) => (
         <div key={pg.title}>
           <h4 className="mb-2 text-base leading-normal font-medium lg:border-b">

@@ -20,7 +20,8 @@ export default function FooterQuote() {
           color="black"
           className="inline-block"
         />
-        Çınarlı Mah. Ozan Abay Cad. No:8-Z17 Ege Perla-Konak / İzmir
+        Gültepe Mah. 719. Sk. Albayrak Suit Apt. Kat:1 D:6 - Merkezefendi /
+        DENİZLİ
       </p>
     </div>
   );

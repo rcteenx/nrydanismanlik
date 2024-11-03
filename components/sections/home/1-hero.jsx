@@ -43,7 +43,7 @@ export default function Hero() {
               </a>
             </div>
             <a
-              href="https://wa.me/905434649144?text=wellness%20hakkında%20bilgi%20istiyorum"
+              href="https://wa.me/905074873424?text=wellness%20hakkında%20bilgi%20istiyorum"
               title="WhatsApp Mesajı Gönderin"
               className="border-0 border-b border-white rounded-none hover:text-xpink "
             >

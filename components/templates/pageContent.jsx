@@ -6,7 +6,7 @@ const titleStyles = cva(
   {
     variants: {
       bgColor: {
-        default: "gradientAccentToDark",
+        default: "gradientVioletToPurple",
         secondary: "bg-accent",
         white: "white",
         schools: "gradientSchools",

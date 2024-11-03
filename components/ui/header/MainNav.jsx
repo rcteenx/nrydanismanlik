@@ -7,7 +7,9 @@ export default function LargeMenu() {
   return (
     <div className="flex-1">
       <h2 className="hidden lg:block lg:m-0 text-xpink text-center text-3xl xl:text-4xl">
-        NRY Danışmanlık ve Koçluk Merkezi
+        <Link id="Nry Danışmanlık" href="/">
+          NRY Danışmanlık ve Koçluk Merkezi
+        </Link>
       </h2>
       <nav className="flex-1 px-4 font-extralight text-sm md:text-base hidden lg:block">
         <ul className="hidden md:flex md:justify-center md:space-x-2 font-semibold">

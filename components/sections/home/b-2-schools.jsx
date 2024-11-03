@@ -67,7 +67,7 @@ export default function Schools2() {
         </p>
         <div className="text-center">
           <a
-            href="https://wa.me/905434649144?text=genel%20bilgi%20istiyorum"
+            href="https://wa.me/905074873424?text=genel%20bilgi%20istiyorum"
             title="WhatsApp Mesajı Gönderin"
             className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 gradientMagentaToBlack gradientTransition btn-hero"
             role="button"

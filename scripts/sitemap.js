@@ -3,7 +3,7 @@ const path = require("path");
 const { getFilesRecursively } = require("./getFilesRecursively");
 
 const { resolve } = require("path");
-const domain_url = "https://metasistemik.com";
+const domain_url = "https://nrydanismanlik.com";
 
 const getDirPath = resolve(__dirname, "../out");
 const skipDir = "_next";

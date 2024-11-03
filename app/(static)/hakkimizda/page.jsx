@@ -1,14 +1,12 @@
 import HeaderTitle from "@/components/templates/headerTitle";
 import PageContent from "@/components/templates/pageContent";
 
-import SubMovie from "@/components/sections/platform/what";
-import MissionVision from "@/components/sections/platform/mission-vision";
 import SocialMedia from "@/components/sections/common/z-contact";
 
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>Metasistematik</HeaderTitle>
+      <HeaderTitle>Nry Danışmanlık Hakkında</HeaderTitle>
 
       <PageContent h2Title="Farkındalığın Işığında, Dönüşüme Adım Adım: Platformumuzun Hikayesi">
         <div className="flex justify-center items-center p-4 rounded-xl bg-black">
@@ -36,8 +34,6 @@ export default function StaticPage() {
         </p>
       </PageContent>
 
-      <SubMovie />
-      <MissionVision />
       <SocialMedia />
     </>
   );

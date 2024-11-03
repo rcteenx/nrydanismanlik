@@ -20,7 +20,7 @@ export default function Hero() {
             <div className="flex flex-row space-x-8 justify-center items-center">
               <div className="relative inline-flex group">
                 <a
-                  href="https://wa.me/905434649144?text=genel%20bilgi%20istiyorum"
+                  href="https://wa.me/905074873424?text=genel%20bilgi%20istiyorum"
                   title="WhatsApp Mesajı Gönderin"
                   className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 gradientAccentToDark gradientTransition btn-hero"
                   role="button"

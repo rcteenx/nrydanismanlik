@@ -15,13 +15,10 @@ export default function MobileMenu() {
   return (
     <div className="w-12 lg:w-24 xl:w-32  px-4 flex justify-end">
       <nav id="service-menu">
-        <ul className="hidden lg:flex space-x-2 text-sm m-1">
-          <li className="gradientPinkToPurple hover:gradientPurpleToPink gradientTransition text-white rounded-xl py-2 px-4 ">
-            <a href="/blog">Blog</a>
+        <ul className="hidden lg:flex text-sm m-1">
+          <li className="gradientPinkToPurple hover:gradientPurpleToPink gradientTransition text-white rounded-xl py-2 px-2 text-sm">
+            <a href="tel:+905074873424">Bizi Arayın</a>
           </li>
-          {/* <li className="rounded-xl hover:gradientPurpleToPink py-1 px-1 text-xpurple">
-            <a href="/iletisim">İletişim</a>
-          </li> */}
         </ul>
         <section className="flex lg:hidden cursor-pointer">
           <div className="space-y-2 h-8 w-8" onClick={handleClick}>
