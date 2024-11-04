@@ -5,10 +5,10 @@ export default function HacamatTerapi() {
     <section id="workshops" className="">
       <div className="container mx-auto my-8 lg:my-24">
         <div className="bg-gradient-to-br from-purple-400 to-purple-600 p-12 m-4 border rounded-2xl shadow-lg text-center text-white">
-          <h2 className=" text-accent-light-7 lg:text-6xl">
+          <h2 className=" text-purple-800 lg:text-6xl">
             Çin Tıbbı Hacamat ve Kupa Terapisi
           </h2>
-          <div className=" mx-auto max-w-2xl text-accent-light-8 ">
+          <div className=" mx-auto max-w-2xl text-violet-200 ">
             <p>
               Hacamat ve kupa terapisi, geçmişten günümüze soğuk algınlığında,
               lenf ödemin vücuttan uzaklaştırılmasında ve ağrıların
@@ -20,8 +20,8 @@ export default function HacamatTerapi() {
               bahsedilmiştir.
             </p>
           </div>
-          <ul className="my-4 text-xpink text-base flex flex-col md:flex-row gap-4 ">
-            <li className=" w-full border p-4 rounded-md shadow-lg bg-white hover:bg-gray-100 ">
+          <ul className="my-4 text-pink-600 text-base flex flex-col md:flex-row gap-4 ">
+            <li className=" w-full border p-4 rounded-md shadow-lg bg-white hover:bg-violet-200 ">
               <h3>HACAMAT</h3>
               <p className="px-2">
                 Deri altına yerleşen ve kas içine fibroblast oluşturarak
@@ -30,7 +30,7 @@ export default function HacamatTerapi() {
                 olma halidir.
               </p>
             </li>
-            <li className=" w-full border p-4 rounded-md shadow-lg bg-white hover:bg-gray-100">
+            <li className=" w-full border p-4 rounded-md shadow-lg bg-white hover:bg-violet-200">
               <h3>KUPA TERAPİSİ</h3>
               <p>
                 Kas için ayar değişmiş ölmüş, atık uyuşuk kan hacamatla dışarı

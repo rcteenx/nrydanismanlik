@@ -1,20 +1,20 @@
 export default function Faq() {
   return (
-    <section className=" border-b border-gray-200 faq--content" id="faq">
+    <section className=" border-b border-graviolety-200 faq--content" id="faq">
       <div className="mx-auto container py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-        <h2 className="text-center font-bold tracking-tight text-gray-900 text-[26px]">
+        <h2 className="text-center font-bold tracking-tight text-violet-900 text-[26px]">
           Sıkça Sorulan Sorular
         </h2>
-        <dl className="mt-6 space-y-6 divide-y divide-gray-200">
+        <dl className="mt-6 space-y-6 divide-y divide-violet-200">
           <div className="pt-6 question">
             <dt className="text-lg">
               <button
                 type="button"
-                className="flex w-full items-start justify-between text-left text-gray-400"
+                className="flex w-full items-start justify-between text-left text-violet-400"
                 aria-controls="faq-0"
                 aria-expanded="false"
               >
-                <h3 className="font-medium text-gray-900">
+                <h3 className="font-medium text-violet-900">
                   Sunucu (Server) Nedir?{" "}
                 </h3>
                 <span className="ml-6 flex h-7 items-center">
@@ -55,11 +55,11 @@ export default function Faq() {
             <dt className="text-lg">
               <button
                 type="button"
-                className="flex w-full items-start justify-between text-left text-gray-400"
+                className="flex w-full items-start justify-between text-left text-violet-400"
                 aria-controls="faq-0"
                 aria-expanded="false"
               >
-                <h3 className="font-medium text-gray-900">
+                <h3 className="font-medium text-violet-900">
                   Sunucu kiralama nedir?{" "}
                 </h3>
                 <span className="ml-6 flex h-7 items-center">

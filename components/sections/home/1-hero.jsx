@@ -35,7 +35,7 @@ export default function Hero() {
               <a
                 href="#"
                 title="Bize ulaşın"
-                className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 gradientViolet400ViaViolet300ToViolet200 shadow-lg gradientTransition btn-hero"
+                className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-900 gradientViolet400ViaViolet300ToViolet200 shadow-lg gradientTransition btn-hero"
                 role="button"
               >
                 Arayın

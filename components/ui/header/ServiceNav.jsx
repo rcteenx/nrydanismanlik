@@ -26,14 +26,16 @@ export default function MobileMenu() {
             <a href="/iletisim">İletişim</a>
           </li>
         </ul>
-        <section className="flex lg:hidden cursor-pointer">
+        <div className="flex lg:hidden cursor-pointer ">
           <div className="space-y-2 h-8 w-8" onClick={handleClick}>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+            <span className="block h-0.5 w-8 animate-pulse bg-violet-400"></span>
+            <span className="block h-0.5 w-8 animate-pulse bg-violet-600"></span>
+            <span className="block h-0.5 w-8 animate-pulse bg-violet-800"></span>
           </div>
 
-          <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+          <div
+            className={` fixed   ${isNavOpen ? "showMenuNav" : "hideMenuNav"} `}
+          >
             <div className="px-4 py-1">
               <HeaderLogo />
             </div>
@@ -42,7 +44,7 @@ export default function MobileMenu() {
               onClick={() => setIsNavOpen(false)}
             >
               <svg
-                className="h-8 w-8 gradientRedToBlack"
+                className="h-12 w-12 bg-violet-200 rounded-md"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -55,10 +57,10 @@ export default function MobileMenu() {
               </svg>
             </div>
 
-            <ul className="flex flex-col items-left m-16 py-8 px-12 border rounded-xl bg-gray-200 border-gray-300 shadow-lg ">
+            <ul className="flex flex-col items-left m-8 py-8 px-8 border rounded-xl bg-violet-200 border-violet-300 shadow-lg text-purple-600">
               {menu.map((pg) => (
                 <li key={pg.id} className={` my-2`}>
-                  <h3 className="inline-block border-b border-gray-400 font-bold">
+                  <h3 className="inline-block border-b border-violet-400 font-bold">
                     <Link href={`/${pg.link}`} onClick={handleClick}>
                       {pg.title.toUpperCase()}
                     </Link>
@@ -68,7 +70,7 @@ export default function MobileMenu() {
                     {pg.pages.map((sp) => (
                       <li
                         key={sp.id}
-                        className=" text-sm text-gray-400 hover:text-gray-800 gradientTransition"
+                        className="text-sm font-light text-violet-400 hover:text-violet-800"
                       >
                         <a
                           href={
@@ -86,7 +88,7 @@ export default function MobileMenu() {
               ))}
             </ul>
           </div>
-        </section>
+        </div>
       </nav>
     </div>
   );

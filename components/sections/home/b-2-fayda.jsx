@@ -5,7 +5,7 @@ export default function Atolye({ img, img2, gain, gain2 }) {
     <div id="gain" className="bg-white py-10 lg:my-16">
       <div className="container mx-auto">
         <div className="px-4 lg:p-0 text-left xl:text-center">
-          <h2 className="p-4 lg:p-8 text-center lg:text-6xl gradientAccentToDark sm:rounded-xl ">
+          <h2 className="p-4 lg:p-8 text-center lg:text-6xl gradientPinkToPurple sm:rounded-xl ">
             {gain.h2}
           </h2>
         </div>
@@ -23,8 +23,8 @@ export default function Atolye({ img, img2, gain, gain2 }) {
                 <li key={index} className="flex gap-2">
                   <SvgCheck />
                   <div>
-                    <dt className=" text-2xl text-accent-dark-3 ">{i.title}</dt>
-                    <dd className="-ml-7 mt-2 pb-2 border-b border-gray-200">
+                    <dt className=" text-2xl text-purple-800 ">{i.title}</dt>
+                    <dd className="-ml-7 mt-2 pb-2 border-b border-violet-200">
                       {i.info}
                     </dd>
                   </div>
@@ -41,8 +41,8 @@ export default function Atolye({ img, img2, gain, gain2 }) {
                 <li key={index} className="flex gap-2">
                   <SvgCheck />
                   <div>
-                    <dt className="text-2xl text-accent-dark-3">{i.title}</dt>
-                    <dd className="-ml-7 mt-2 pb-2 border-b border-gray-200">
+                    <dt className=" text-2xl text-purple-800 ">{i.title}</dt>
+                    <dd className="-ml-7 mt-2 pb-2 border-b border-violet-200">
                       {i.info}
                     </dd>
                   </div>

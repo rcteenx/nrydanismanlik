@@ -10,7 +10,7 @@ export default function FooterLinks() {
           </h4>
           <ul>
             {pg.pages.map((sp) => (
-              <li key={sp.id} className="mt-1 text-xs hover:text-gray-200">
+              <li key={sp.id} className="mt-1 text-xs hover:text-violet-200">
                 <a href={pg.id == 4 && sp.id < 3 ? sp.link : "/" + sp.link}>
                   {sp.title}
                 </a>

@@ -12,12 +12,12 @@ export default function StaticPage() {
   return (
     <>
       <PageContent bgColor={"white"} h2Title="Çerez Politikası">
-        <div className="text-gray-600 [&_h3]:text-xl [&_ul]:list-disc [&_ul]:list-inside">
+        <div className="text-violet-400 [&_h3]:text-xl [&_ul]:list-disc [&_ul]:list-inside">
           <h3>1. Giriş</h3>
           <p>
             Bu Çerez Politikası, [Reyhan Çetin & Arkadaşları] tarafından
             kullanılan çerezler ve benzeri teknolojiler hakkında bilgi
-            vermektedir. Web sitemizi (https://www.reyhancetin.org.tr)
+            vermektedir. Web sitemizi (https://www.nrydanismanlik.com)
             kullanarak, bu politikada belirtilen çerezlerin kullanımını kabul
             etmiş olursunuz.
           </p>

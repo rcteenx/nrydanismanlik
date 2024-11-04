@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang={smd.language} className={`${base.variable} `}>
       <body>
-        <GoogleAnalytics />
+        {/* <GoogleAnalytics /> */}
         <Header />
         <main>{children}</main>
         <Footer />
