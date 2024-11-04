@@ -1,4 +1,3 @@
-import HeaderTitle from "@/components/templates/headerTitle";
 import PageContent from "@/components/templates/pageContent";
 
 import SocialMedia from "@/components/sections/common/z-contact";
@@ -12,8 +11,6 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>K.V.K.K. Aydınlatma Metni</HeaderTitle>
-
       <PageContent bgColor={"white"} h2Title="Aydınlatma Metni">
         <div className="text-gray-600 [&_h3]:text-xl [&_ul]:list-disc [&_ul]:list-inside">
           <h3>1. Veri Sorumlusu Kimliği</h3>
@@ -138,7 +135,7 @@ export default function StaticPage() {
         </div>
       </PageContent>
 
-<SocialMedia />
+      <SocialMedia />
     </>
   );
 }

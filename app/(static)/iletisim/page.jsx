@@ -1,4 +1,3 @@
-import HeaderTitle from "@/components/templates/headerTitle";
 import PageContent from "@/components/templates/pageContent";
 
 import SocialMedia from "@/components/sections/common/z-contact";
@@ -12,9 +11,7 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <HeaderTitle>İletişim</HeaderTitle>
-
-      <PageContent h2Title="İletişim Bilgileri">
+      <PageContent h2Title="NRY Danışmanlık - Denizli">
         <div className="mx-auto rounded-lg bg-white text-center">
           <div className="p-4">
             <iframe

@@ -14,11 +14,11 @@ export default function SocialMedia() {
         <div className="my-4 relative inline-flex group">
           <a
             href="https://wa.me/905074873424?text=genel%20bilgi%20istiyorum"
-            title="WhatsApp Mesajı Gönderin"
-            className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 gradientAccentToDark gradientTransition btn-hero"
+            title="WhatsApp Üzerinden Mesaj Gönderin"
+            className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200  font-pj focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 gradientPinkToPurple gradientTransition btn-hero"
             role="button"
           >
-            Bize Mesaj Atın
+            Bize Yazın
             <IconComponent name="whatsapp" size={24} color="white" />
           </a>
         </div>
@@ -43,7 +43,7 @@ export default function SocialMedia() {
                 <IconComponent
                   name={i.svgIcon}
                   size={96}
-                  color="#ff3333"
+                  color="#ff00cc"
                   alt={i.alt}
                   title={i.alt}
                 />

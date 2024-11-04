@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer
       id="footer"
-      className="xl:container mx-auto container-p mt-16 bg-accent xl:rounded-t-2xl text-gray-700"
+      className="xl:container mx-auto container-p mt-16 gradientViolet400ViaViolet300ToViolet200 xl:rounded-t-2xl text-gray-700"
     >
       <div className="py-8">
         <FooterLinks />

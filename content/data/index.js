@@ -21,35 +21,31 @@ export const barInfo = {
 };
 
 export const whatwegain = {
-  h2: "Sertifika Programlarımız Neler Kazandırır?",
+  h2: "Uygulamalarımızın Faydaları",
   items: [
     {
-      title: "Derin Kişisel Farkındalığı Geliştirin",
-      info: "Farkındalığa dayalı amaçlı büyümeye yönelik bir temel oluşturmak için benzersiz güçlü yönlerinizi, kalıplarınızı, sınırlamalarınızı ve daha büyük sistemlerle nasıl bağlantı kurduğunuzu ortaya çıkarın.",
+      title: "Welness (Sağlıklı Yaşam) Uygulamaları",
+      info: "Kendinize Yatırım Yapın: Bütünsel Sağlığınıza Öncelik Verin",
     },
     {
-      title: "Sistemik Kişilik Anlayışını Keşfedin",
-      info: "Kişiliğin sistemik inşası hakkında derinlemesine bir anlayış geliştirin. Hem kişisel büyüme yolculuğunuzda hem de mesleki uzmanlığınızda bu dönüşümsel bilginin yöntem ve tekniklerinden yararlanın.",
+      title: "REİKİ",
+      info: "Stresli ve bitkin mi hissediyorsunuz? Reiki yardımcı olabilir.",
     },
     {
-      title: "Dönüşüm için Güçlü Araçlar Geliştirin",
-      info: "Kendinizi ve başkalarını güçlendirmek için kanıta dayalı sistemik koçluk metodolojilerinde, sistemik kolaylaştırma tekniklerinde, profesyonel eğitmenlikte, sistemik dizim yaklaşımlarında ve Enneagram çerçevesinde uzmanlaşın.",
+      title: "Bioenerji",
+      info: "İçinizdeki Doğal Şifacıyı Açığa Çıkarın: Biyoenerjiyi Keşfedin. Biyoenerji şifasıyla vücudunuzun doğal enerji akışına dokunun.",
     },
   ],
 };
 export const whatwegain2 = {
   items: [
     {
-      title: "Profesyonel Kariyerinizi Yükseltin",
-      info: "Ulusal ve Uluslararası mesleki standartlarda hazırlanan sertifika programlarımızla birlikte üst seviyede eğitimlerinizi tamamlayarak, kendinizi profesyonellik için ihtiyaç duyacağınız güçlü yetkinliklerle donatın. Benzersiz mesleki gelişim sertifika programlarımıza katılarak, kariyerinizde fark yaratın.",
+      title: "Koçluk",
+      info: "Koçlukla Potansiyelinizi Ortaya Çıkarın!",
     },
     {
-      title: "Mesleki Belge ve Uluslararası Unvan Kazanın",
-      info: "MYK Seviye-6 resmi meslek belgelerinizi edinmeniz için etkili sınav hazırlık programlarımızla süreç boyunca yanınızda olacağız. Ek olarak ICF ünvan alma (ACC/PCC) son aşaması olan sınav sürecine gelmişseniz, benzer sınav sorularından oluşan testler, süpervizyon ve mentorluk süreçleriyle desteklenen ICF sınav hazırlık programımızla, sınav sürecinde güçlü desteğimizi sunuyoruz..",
-    },
-    {
-      title: "Başarılı bir Topluluğa Katılın",
-      info: "Farkındalık Geliştirme ve Sistemik Çalışma anlayışını ve dünya üzerinde olumlu bir etki yaratma tutkunuzu paylaşan kişilerle bağlantı kurun ve birlikte öğrenin..",
+      title: "Aile Dizimi ve Sistemik Dizimler",
+      info: "Tam potansiyelinizi açığa çıkarmaya hazır mısınız?",
     },
   ],
 };
@@ -122,7 +118,24 @@ export const StaticPages = [
     ],
   },
   {
-    id: 7,
+    id: 6,
+    title: "BLOG",
+    link: "blog",
+    pages: [
+      {
+        id: 1,
+        title: "Danışmanlık",
+        link: "blog/danismanlik",
+      },
+      {
+        id: 2,
+        title: "Sağlık",
+        link: "blog/saglik",
+      },
+    ],
+  },
+  {
+    id: 9,
     title: "İLETİŞİM",
     link: "iletisim",
     pages: [
@@ -131,7 +144,7 @@ export const StaticPages = [
         title: "info@nrydanismanlik.com",
         link: "mailto:info@nrydanismanlik.com",
       },
-      { id: 2, title: "0 (555) 111 1111", link: "tel:+905551111111" },
+      { id: 2, title: "0 (507) 487 3424", link: "tel:+905074873424" },
       { id: 3, title: "Çerez Politikası", link: "iletisim/cerez" },
       { id: 4, title: "K.V.K.K.", link: "iletisim/kvkk" },
     ],

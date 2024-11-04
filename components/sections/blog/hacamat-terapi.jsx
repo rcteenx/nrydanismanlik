@@ -1,6 +1,6 @@
 import IconComponent from "@/components/ui/icons/icons";
 
-export default function Workshops() {
+export default function HacamatTerapi() {
   return (
     <section id="workshops" className="">
       <div className="container mx-auto my-8 lg:my-24">
@@ -10,13 +10,14 @@ export default function Workshops() {
           </h2>
           <div className=" mx-auto max-w-2xl text-accent-light-8 ">
             <p>
-              Geçmişten geleceği hacamat ve kupa terapisi soğuk algınlığında
-              lenf ödeme bedenden uzaklaştırmada ve ağrılarda çok etkili olduğu
-              gözlenmiş ve tercih edilmiştir.
+              Hacamat ve kupa terapisi, geçmişten günümüze soğuk algınlığında,
+              lenf ödemin vücuttan uzaklaştırılmasında ve ağrıların
+              hafifletilmesinde etkili bir yöntem olarak tercih edilmiştir.
             </p>
             <p>
-              Belirli seanslarla uygulanan kupa terapisi ve hacamat İbni
-              Sina'nın "El Kanun Fit Tıb" kitabında vurgulanarak bahsedilmiştir.
+              İbni Sina'nın "El Kanun Fit Tıb" kitabında, belirli seanslarla
+              uygulanan kupa terapisi ve hacamat işleminden vurgulanarak
+              bahsedilmiştir.
             </p>
           </div>
           <ul className="my-4 text-xpink text-base flex flex-col md:flex-row gap-4 ">
@@ -37,11 +38,17 @@ export default function Workshops() {
               </p>
             </li>
           </ul>
-          <h3>Birlikte Çalışıyoruz</h3>
-          <p>
-            Her ay düzenli olarak yüz-yüze atölyeler ve 3-4 ayda bir gelişim
-            inziva programlarımız için bize katılın.
-          </p>
+          <h3>Hacamatın Faydaları </h3>
+          <ul>
+            <li>Beden sağlık ve enerjisine kavuşmuştur</li>
+            <li>Kan dolaşımı düzelir</li>
+            <li>Metabolizma hızlanır</li>
+            <li>
+              Tansiyon migren baş ağrısı bel ağrısı ve kulunçlarda çok etkilidir
+            </li>
+            <li>Kaygı bozukluğu depresyona korkuları iyi gelir</li>
+            <li>Romatizmal ve adet düzensizliğine iyi gelir</li>
+          </ul>
         </div>
       </div>
     </section>

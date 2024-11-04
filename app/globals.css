@@ -64,7 +64,10 @@
   }
   /*  List bg */
   .gradientViolet400ViaViolet300ToViolet200 {
-    @apply bg-gradient-to-b from-violet-400 via-violet-300 to-violet-200 text-white;
+    @apply bg-gradient-to-b from-violet-400 via-violet-200 to-violet-200 text-white;
+  }
+  .gradientViolet400ViaViolet300ToViolet200 {
+    @apply bg-gradient-to-b from-white via-violet-300 to-violet-400 text-white;
   }
   .gradientPinkToPurple {
     @apply bg-gradient-to-b from-xpink to-xpurple text-white;

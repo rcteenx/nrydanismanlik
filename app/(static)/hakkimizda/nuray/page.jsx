@@ -5,7 +5,7 @@ import { nuray1 } from "@/public/assets/images";
 
 export async function generateMetadata() {
   return {
-    title: "NRY DANIŞMANLIK HAKKINDA",
+    title: "Nuray Özel Arkun Hakkında",
   };
 }
 
@@ -13,14 +13,16 @@ export default function StaticPage() {
   return (
     <>
       <PageContent h2Title="Nuray Özel Arkun">
-        <div className="flex justify-center items-center p-8 shadow-xl rounded-b-xl">
-          <img
-            src={nuray1.src}
-            alt="img colletion"
-            width="w-full"
-            height={400}
-            className="rounded-xl"
-          />
+        <div className="flex justify-center items-center p-4 rounded-xl bg-xpurple">
+          <div className="p-4 shadow-xl rounded-b-xl ">
+            <img
+              src={nuray1.src}
+              alt="img colletion"
+              width="w-full"
+              height={400}
+              className="rounded-xl"
+            />
+          </div>
         </div>
         <h3>Nuray Özel Arkun'ın Ünvanları</h3>
         <ul>

@@ -1,6 +1,6 @@
 import SvgCheck from "@/components/ui/svg/check";
 
-export default function WhatWeGain({ img, img2, gain, gain2 }) {
+export default function Atolye({ img, img2, gain, gain2 }) {
   return (
     <div id="gain" className="bg-white py-10 lg:my-16">
       <div className="container mx-auto">

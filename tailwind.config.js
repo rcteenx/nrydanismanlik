@@ -61,7 +61,6 @@ module.exports = {
         custom2: "0px 2px 30px 0px rgba(8, 73, 81, 0.06)",
       },
       backgroundImage: (theme) => ({
-        kocluk1: "url('/assets/images/kocluk-1.jpg')",
         okullarimiz1: "url('/assets/images/okullarimiz-1.jpg')",
         bilincSonrasi: "url('/assets/images/bilinc-sonrasi.jpg')",
         services: "url('/assets/images/bg-atolye.png')",

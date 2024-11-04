@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { StaticPages } from "@/content/data";
+import IconComponent from "@/components/ui/icons/icons";
 import HeaderLogo from "@/components/ui/header/Logo";
 
 import { useState } from "react"; // import state
@@ -15,9 +16,14 @@ export default function MobileMenu() {
   return (
     <div className="w-12 lg:w-24 xl:w-32  px-4 flex justify-end">
       <nav id="service-menu">
-        <ul className="hidden lg:flex text-sm m-1">
-          <li className="gradientPinkToPurple hover:gradientPurpleToPink gradientTransition text-white rounded-xl py-2 px-2 text-sm">
-            <a href="tel:+905074873424">Bizi Arayın</a>
+        <ul className="hidden lg:flex gap-2 text-sm m-1">
+          <li className="gradientPinkToPurple hover:gradientPurpleToPink gradientTransition text-white  rounded-xl py-2 px-2 text-sm">
+            <a href="tel:+905074873424">
+              <IconComponent name="whatsapp" size={18} color="white" />
+            </a>
+          </li>
+          <li className="rounded-xl gradientPurpleToPink hover:gradientPinkToPurple py-1 px-3">
+            <a href="/iletisim">İletişim</a>
           </li>
         </ul>
         <section className="flex lg:hidden cursor-pointer">
