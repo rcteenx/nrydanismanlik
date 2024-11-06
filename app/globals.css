@@ -54,11 +54,11 @@
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-purple-400 pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-purple-400 max-sm:rounded-full;
   }
   /*  List bg */
-  .gradientViolet400ViaViolet300ToViolet200 {
-    @apply bg-gradient-to-b from-violet-400 via-violet-200 to-violet-200 text-white;
+  .gradientViolet200ViaViolet300ToViolet400 {
+    @apply bg-gradient-to-b from-violet-200 via-violet-300 to-violet-400 text-white;
   }
-  .gradientViolet400ViaViolet300ToViolet200 {
-    @apply bg-gradient-to-b from-white via-violet-300 to-violet-400 text-white;
+  .gradientViolet400ViaViolet300ToWhite {
+    @apply bg-gradient-to-b from-violet-300 via-violet-300 to-white text-white;
   }
   .gradientPinkToPurple {
     @apply bg-gradient-to-b from-xpink to-xpurple text-white;

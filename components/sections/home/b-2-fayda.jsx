@@ -4,7 +4,7 @@ export default function Atolye({ img, img2, gain, gain2 }) {
   return (
     <div id="gain" className="bg-white py-10 lg:my-16">
       <div className="container mx-auto">
-        <div className="px-4 lg:p-0 text-left xl:text-center">
+        <div className="lg:px-4 lg:p-0 text-left xl:text-center">
           <h2 className="p-4 lg:p-8 text-center lg:text-6xl gradientPinkToPurple sm:rounded-xl ">
             {gain.h2}
           </h2>
