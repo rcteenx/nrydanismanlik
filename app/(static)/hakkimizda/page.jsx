@@ -1,7 +1,7 @@
 import PageContent from "@/components/templates/pageContent";
 
 import SocialMedia from "@/components/sections/common/z-contact";
-import { nuray1 } from "@/public/assets/images";
+import { nrydanismanlik } from "@/public/assets/images";
 
 export async function generateMetadata() {
   return {
@@ -12,11 +12,11 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Nuray Özel Arkun">
+      <PageContent h2Title="Nry Danışmanlık">
         <div className="flex justify-center items-center p-8 shadow-xl rounded-b-xl">
           <img
-            src={nuray1.src}
-            alt="img colletion"
+            src={nrydanismanlik.src}
+            alt="Nry Danışmanlık"
             width="w-full"
             height={400}
             className="rounded-xl"

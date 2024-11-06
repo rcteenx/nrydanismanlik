@@ -119,6 +119,23 @@ export const StaticPages = [
   },
   {
     id: 6,
+    title: "GALERİ",
+    link: "galeri",
+    pages: [
+      {
+        id: 1,
+        title: "Aile Dizimi Fotoğrafları",
+        link: "galeri/aile-dizimi",
+      },
+      {
+        id: 2,
+        title: "Seans Fotoğrafları",
+        link: "galeri/seans",
+      },
+    ],
+  },
+  {
+    id: 8,
     title: "BLOG",
     link: "blog",
     pages: [
