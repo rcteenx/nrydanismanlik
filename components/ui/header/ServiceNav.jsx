@@ -34,13 +34,13 @@ export default function MobileMenu() {
           </div>
 
           <div
-            className={` fixed   ${isNavOpen ? "showMenuNav" : "hideMenuNav"} `}
+            className={`fixed   ${isNavOpen ? "showMenuNav" : "hideMenuNav"} `}
           >
-            <div className="px-4 py-1">
+            <div className="px-4 py-2">
               <HeaderLogo />
             </div>
             <div
-              className="absolute top-0 right-0 px-8 py-4 "
+              className="absolute top-0 right-0 px-4 py-2"
               onClick={() => setIsNavOpen(false)}
             >
               <svg
@@ -57,20 +57,20 @@ export default function MobileMenu() {
               </svg>
             </div>
 
-            <ul className="flex flex-col items-left m-8 py-8 px-8 border rounded-xl bg-violet-200 border-violet-300 shadow-lg text-purple-600">
+            <ul className="flex flex-col items-left mx-4 my-2 p-4 md:p-8 border rounded-xl bg-violet-200 border-violet-300 shadow-lg text-purple-600">
               {menu.map((pg) => (
-                <li key={pg.id} className={` my-2`}>
-                  <h3 className="inline-block border-b border-violet-400 font-bold">
+                <li key={pg.id} className={` my-1`}>
+                  <h4 className="inline-block border-b border-violet-400 font-bold">
                     <Link href={`/${pg.link}`} onClick={handleClick}>
                       {pg.title.toUpperCase()}
                     </Link>
-                  </h3>
+                  </h4>
 
                   <ul className="flex flex-col">
                     {pg.pages.map((sp) => (
                       <li
                         key={sp.id}
-                        className="text-sm font-light text-violet-400 hover:text-violet-800"
+                        className="my-0 text-sm font-light text-violet-400 hover:text-violet-800"
                       >
                         <a
                           href={
