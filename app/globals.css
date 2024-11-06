@@ -89,7 +89,7 @@
 
 @layer utilities {
   .container-p {
-    @apply px-4 md:px-8 lg:px-12;
+    @apply md:px-8 lg:px-12;
   }
 
   .padding {
