@@ -13,7 +13,7 @@ export default function Atolye({ consultancy }) {
         {consultancy.items.map((i, index) => (
           <div
             key={index}
-            className="grid grid-cols-1 xl:grid-cols-2  gap-8 lg:mt-4 items-center  "
+            className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center  "
           >
             <div className={`rounded-3xl hidden xl:block ${i.order}`}>
               <img
