@@ -26,7 +26,8 @@ export const consultancy = {
     {
       title: "Trans Terapi",
       img: "yarar-1.png",
-      order: "order-1",
+      imgOrder: "order-1",
+      infoOrder: "order-2",
       info: [
         "Ata gel zincirinden bize aktarılan korkular, popüler bağımlılıklar, panik atak, yeme bozuklukları, stres, psikolojik sıkıntılar, bedensel hastalıklar, hamilelik sürecinden doğum anından gelen kalıtımsal problemler.",
         "Tüm bunların hepsini mevcut düşünce yapısıyla çözemezsiniz, onlar mevcut düşünce yapınızın ürünleridir ve bunların cevabını  okuduğun asla kitaplarda bulamazsın.",
@@ -38,7 +39,8 @@ export const consultancy = {
     {
       title: "Reiki",
       img: "yarar-2.png",
-      order: "order-2",
+      imgOrder: "order-2",
+      infoOrder: "order-1",
       info: [
         "Reiki ruhsal bedensel zihinsel olarak tam bir iyilik halidir ve dengelenmenin en kolay halidir. Kademeli olarak alınan Reiki eğitim seviyeleri size olabileceğiniz en dengeli en sağlıklı hale ulaştıracaktır. Kendine iyileştirmedeki en güzel adımdır.",
         "Reiki bedendeki toksinleri arındırır, strese iyi gelir, derinlerdeki gerilimi, öfkeyi, kızgınlığı bir anda sakinliğe dönüştürüverir.",
@@ -48,7 +50,8 @@ export const consultancy = {
     {
       title: "Biyoenerji",
       img: "yarar-3.png",
-      order: "order-1",
+      imgOrder: "order-1",
+      infoOrder: "order-2",
       info: [
         "2021 yılında biovanyetik bioenerji ve yüksek frekans bioenerji uygulayıcılık ve eğitmenlik eğitimlerini tamamladıktan sonra 2023 2024 yıllarında mesleki yeterlilik kurumu eğitim uzmanlığı ve profesyonel koçluk alanlarında gerekli sınavları vererek resmi boyutta bu işleri yapmaya hak kazandım.",
         "Biyoenerji nedir denildiğinde ise bedenin ruhen bedenen ve zihinsel olarak dengelenme halidir. Geçmişte zihinsel olarak yaşanan korku kaygı endişenin belli bir süreçten sonrasında organları sirayet ettiğini ve bedenin hastalandığı gözlemlenmektedir. Bedenin iyi hali ise ruhen bedenen zihnen dengede kalmaktır. ",

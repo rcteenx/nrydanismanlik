@@ -15,14 +15,14 @@ export default function Atolye({ consultancy }) {
             key={index}
             className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:mt-4 items-center  "
           >
-            <div className={`rounded-3xl hidden xl:block ${i.order}`}>
+            <div className={`rounded-3xl hidden xl:block ${i.imgOrder}`}>
               <img
                 src={`/assets/images/${i.img}`}
                 alt="img colletion"
                 className=" h-[420px] w-full rounded-xl object-cover object-center "
               />
             </div>
-            <div className="p-4">
+            <div className={`p-4 order-1  ${i.infoOrder}`}>
               <ul className="space-y-5 text-violet-500 font-light">
                 <li key={index}>
                   <div className="flex gap-2">
