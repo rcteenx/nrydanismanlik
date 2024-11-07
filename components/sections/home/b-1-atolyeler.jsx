@@ -17,7 +17,7 @@ export default function Atolyeler() {
       <div className="container mx-auto xl:-mt-36 ">
         <div className="xl:mx-8 grid md:grid-cols-2 xl:grid-cols-4 gap-4 px-4 xl:px-0 ">
           <div className="p-4 xl:py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientVioletToPurple gradientTransition ">
-            <a href="/okullar/kocluk">
+            <a href="#">
               <div className=" flex justify-center items-center">
                 <IconComponent name="school" size={64} color="white" />
               </div>
@@ -29,7 +29,7 @@ export default function Atolyeler() {
           </div>
 
           <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientPurpleToPink gradientTransition">
-            <a href="/okullar/egitmenlik">
+            <a href="#">
               <div className=" flex justify-center items-center">
                 <IconComponent name="aileDizimi" size={64} color="white" />
               </div>
@@ -40,7 +40,7 @@ export default function Atolyeler() {
             </a>
           </div>
           <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientPinkToRed gradientTransition">
-            <a href="/okullar/sistemik-dizim">
+            <a href="#">
               <div className=" flex justify-center items-center">
                 <IconComponent name="systemic" size={64} color="white" />
               </div>
@@ -51,7 +51,7 @@ export default function Atolyeler() {
             </a>
           </div>
           <div className="px-4 py-8 rounded-2xl shadow-custom2 flex flex-col items-center text-center gradientRedToOrange gradientTransition">
-            <a href="/okullar/enneagram">
+            <a href="#">
               <div className=" flex justify-center items-center">
                 <IconComponent name="reiki" size={64} color="white" />
               </div>
