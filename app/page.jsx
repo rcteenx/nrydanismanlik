@@ -1,7 +1,6 @@
 import smd from "@/content/data/siteMetaData";
 
-import { whatwegain, whatwegain2 } from "@/content/data";
-import { yarar1, yarar2 } from "@/public/assets/images";
+import { consultancy } from "@/content/data";
 
 import Hero from "@/components/sections/home/1-hero";
 import SubHero from "@/components/sections/home/1b-sub-hero";
@@ -20,7 +19,7 @@ export default function Home() {
       <SubHero />
 
       <Atolyeler />
-      <Fayda img={yarar1} img2={yarar2} gain={whatwegain} gain2={whatwegain2} />
+      <Fayda consultancy={consultancy} />
 
       <BlogBar />
       <SocialMedia />
