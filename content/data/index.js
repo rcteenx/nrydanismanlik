@@ -76,17 +76,22 @@ export const StaticPages = [
     pages: [
       {
         id: 1,
-        title: "Koçluk",
-        link: "danismanlik/kurumsal",
-      },
-      { id: 2, title: "Bio Enerji", link: "hizmetlerimiz/bio-enerji" },
-      {
-        id: 3,
         title: "Reiki",
         link: "danismanlik/reiki",
       },
       {
+        id: 2,
+        title: "Koçluk",
+        link: "danismanlik/kurumsal",
+      },
+      { id: 3, title: "Bio Enerji", link: "hizmetlerimiz/bio-enerji" },
+      {
         id: 4,
+        title: "Trans Terapi",
+        link: "danismanlik/trans-terapi",
+      },
+      {
+        id: 5,
         title: "Wellness",
         link: "danismanlik/wellness",
       },
