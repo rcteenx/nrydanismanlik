@@ -58,19 +58,19 @@ export default function MobileMenu() {
               </svg>
             </div>
 
-            <ul className="flex flex-col items-left mx-4 my-2 p-4 md:p-8 border rounded-xl bg-violet-200 border-violet-300 shadow-lg text-purple-600">
+            <ul className="flex flex-col items-left mx-4 mt-1 p-2 md:p-4 border rounded-xl bg-violet-200 border-violet-300 shadow-lg text-purple-600">
               {menu.map((pg) => (
-                <li key={pg.id} className={` my-1 text-center`}>
-                  <h4 className="inline-block  font-bold">
+                <li key={pg.id} className={` my-0 text-center`}>
+                  <h4 className="mb-0 inline-block  font-bold">
                     <Link href={`/${pg.link}`} onClick={handleClick}>
                       {pg.title.toUpperCase()}
                     </Link>
                   </h4>
 
                   <ul
-                    className={`flex ${
+                    className={`flex my-0 ${
                       arrMenu.includes(pg.id)
-                        ? "divide-x divide-violet-400  flex-wrap justify-center"
+                        ? "flex-wrap justify-center"
                         : "flex-col"
                     } `}
                   >
