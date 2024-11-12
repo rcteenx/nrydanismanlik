@@ -7,6 +7,7 @@ import HeaderLogo from "@/components/ui/header/Logo";
 import { useState } from "react"; // import state
 
 export default function MobileMenu() {
+  const arrMenu = [2];
   const menu = StaticPages.filter((m) => m.id < 16);
   const [isNavOpen, setIsNavOpen] = useState(false);
   function handleClick() {
@@ -59,18 +60,24 @@ export default function MobileMenu() {
 
             <ul className="flex flex-col items-left mx-4 my-2 p-4 md:p-8 border rounded-xl bg-violet-200 border-violet-300 shadow-lg text-purple-600">
               {menu.map((pg) => (
-                <li key={pg.id} className={` my-1`}>
-                  <h4 className="inline-block border-b border-violet-400 font-bold">
+                <li key={pg.id} className={` my-1 text-center`}>
+                  <h4 className="inline-block  font-bold">
                     <Link href={`/${pg.link}`} onClick={handleClick}>
                       {pg.title.toUpperCase()}
                     </Link>
                   </h4>
 
-                  <ul className="flex flex-col">
+                  <ul
+                    className={`flex ${
+                      arrMenu.includes(pg.id)
+                        ? "divide-x divide-violet-400  flex-wrap justify-center"
+                        : "flex-col"
+                    } `}
+                  >
                     {pg.pages.map((sp) => (
                       <li
                         key={sp.id}
-                        className="my-0 text-sm font-light text-violet-400 hover:text-violet-800"
+                        className="my-0 px-2 text-sm font-light text-violet-400 hover:text-violet-800"
                       >
                         <a
                           href={
