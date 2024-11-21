@@ -1,11 +1,6 @@
-import {
-  acilisGalerisi,
-  aileDizimiGalerisi,
-  seansGalerisi,
-} from "@/content/data/galeri";
-import SocialMedia from "@/components/sections/common/z-contact";
-
+import { acilisGalerisi } from "@/content/data/galeri";
 import ImageGallery from "@/components/sections/gallery/images";
+import SocialMedia from "@/components/sections/common/z-contact";
 
 export async function generateMetadata() {
   return {
@@ -17,8 +12,7 @@ export default function StaticPage() {
   return (
     <>
       <ImageGallery galeri={acilisGalerisi} />
-      <ImageGallery galeri={aileDizimiGalerisi} />
-      <ImageGallery galeri={seansGalerisi} />
+
       <SocialMedia />
     </>
   );

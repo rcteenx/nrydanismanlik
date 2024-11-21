@@ -1,3 +1,81 @@
+export const acilisGalerisi = {
+  h2: "Nry Danışmanlık Açılış Fotoğraf Galerisi",
+  categories: [
+    {
+      h3: "Nry Danışmanlık Kurdele Kesimi",
+      items: [
+        {
+          title: "Kurdele Kesimi - 1",
+          src: "acilis-kesim-1.png",
+        },
+        {
+          title: "Kurdele Kesimi - 2",
+          src: "acilis-kesim-2.png",
+        },
+      ],
+    },
+    {
+      h3: "Nry Danışmanlık Ofis Gezisi",
+      items: [
+        {
+          title: "Ofis Gezisi - 1",
+          src: "acilis-gezi-1.png",
+        },
+        {
+          title: "Ofis Gezisi - 2",
+          src: "acilis-gezi-2.png",
+        },
+        {
+          title: "Ofis Gezisi - 3",
+          src: "acilis-gezi-3.png",
+        },
+      ],
+    },
+    {
+      h3: "Nry Danışmanlık Açılş Hatırası",
+      items: [
+        {
+          title: "Açılş Hatırası - 1",
+          src: "acilis-hatirasi-1.png",
+        },
+        {
+          title: "Açılş Hatırası - 2",
+          src: "acilis-hatirasi-2.png",
+        },
+        {
+          title: "Açılş Hatırası - 3",
+          src: "acilis-hatirasi-3.png",
+        },
+        {
+          title: "Açılş Hatırası - 4",
+          src: "acilis-hatirasi-4.png",
+        },
+        {
+          title: "Açılş Hatırası - 5",
+          src: "acilis-hatirasi-5.png",
+        },
+      ],
+    },
+    {
+      h3: "Nry Danışmanlık Nuray Özel Arkun",
+      items: [
+        {
+          title: "Nuray Özel Arkun - 1",
+          src: "acilis-nuray-1.png",
+        },
+        {
+          title: "Nuray Özel Arkun - 2",
+          src: "acilis-nuray-2.png",
+        },
+        {
+          title: "Nuray Özel Arkun - 3",
+          src: "acilis-nuray-3.png",
+        },
+      ],
+    },
+  ],
+};
+
 export const aileDizimiGalerisi = {
   h2: "Aile Dizimi Fotoğraf Galerisi",
   categories: [

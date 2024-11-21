@@ -67,7 +67,10 @@ export const StaticPages = [
     id: 1,
     title: "HAKKIMIZDA",
     link: "hakkimizda",
-    pages: [{ id: 1, title: "Nuray Özel Arkun", link: "hakkimizda/nuray" }],
+    pages: [
+      { id: 1, title: "Nuray Özel Arkun", link: "hakkimizda/nuray" },
+      { id: 2, title: "Basında Biz", link: "hakkimizda/basinda" },
+    ],
   },
   {
     id: 2,
@@ -121,11 +124,16 @@ export const StaticPages = [
     pages: [
       {
         id: 1,
+        title: "Açılış Fotoğrafları",
+        link: "galeri/acilis",
+      },
+      {
+        id: 2,
         title: "Aile Dizimi Fotoğrafları",
         link: "galeri/aile-dizimi",
       },
       {
-        id: 2,
+        id: 3,
         title: "Seans Fotoğrafları",
         link: "galeri/seans",
       },
