@@ -11,7 +11,7 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Kişisel Gelişim: Hayatınıza Değer Katın">
+      <PageContent h1Title="Kişisel Gelişim: Hayatınıza Değer Katın">
         <h3>Kişisel gelişim nedir?</h3>
         <p>
           Kişisel gelişim, bireyin kendi potansiyelini keşfetmek, yeteneklerini

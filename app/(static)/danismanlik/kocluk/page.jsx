@@ -11,7 +11,7 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Koçluk: Potansiyelinizi Keşfedin ve Hedeflerinize Ulaşın">
+      <PageContent h1Title="Koçluk: Potansiyelinizi Keşfedin ve Hedeflerinize Ulaşın">
         <h3>Koçluk nedir?</h3>
         <p>
           Koçluk, bireylerin kişisel ve profesyonel hedeflerine ulaşmalarını

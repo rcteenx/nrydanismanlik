@@ -11,7 +11,7 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <PageContent bgColor={"white"} h2Title="Aydınlatma Metni">
+      <PageContent bgColor={"white"} h1Title="Aydınlatma Metni">
         <div className="text-violet-600 [&_h3]:text-xl [&_ul]:list-disc [&_ul]:list-inside">
           <h3>1. Veri Sorumlusu Kimliği</h3>
           <p>

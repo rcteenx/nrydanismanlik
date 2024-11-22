@@ -4,14 +4,14 @@ import SocialMedia from "@/components/sections/common/z-contact";
 
 export async function generateMetadata() {
   return {
-    title: "ÇEREZ POLİTİKASI",
+    title: "Çerez Politikası",
   };
 }
 
 export default function StaticPage() {
   return (
     <>
-      <PageContent bgColor={"white"} h2Title="Çerez Politikası">
+      <PageContent bgColor={"white"} h1Title="Çerez Politikası">
         <div className="text-violet-400 [&_h3]:text-xl [&_ul]:list-disc [&_ul]:list-inside">
           <h3>1. Giriş</h3>
           <p>

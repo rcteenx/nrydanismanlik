@@ -5,14 +5,14 @@ import { deha20acilis1, deha20acilis2 } from "@/public/assets/images";
 
 export async function generateMetadata() {
   return {
-    title: "Nuray Özel Arkun Hakkında",
+    title: "Basında Nry Koçluk",
   };
 }
 
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="WORLD TURK TV Kanalında Çıkan Açılış Haberimiz">
+      <PageContent h1Title="WORLD TURK TV Kanalında Çıkan Açılış Haberimiz">
         <div className="flex justify-center items-center p-4 rounded-xl bg-xpurple">
           <div className="flex justify-center items-center p-4 rounded-xl bg-black">
             <iframe
@@ -26,9 +26,9 @@ export default function StaticPage() {
             ></iframe>
           </div>
         </div>
-        <h3>DENİZLİ’DE NRY DANIŞMANLIK MERKEZİ AÇILDI</h3>
+        <h3>DENİZLİ’DE NRY KOÇLUK ve DANIŞMANLIK MERKEZİ AÇILDI</h3>
         <p>
-          Bio Enerji ve Reiki konusunda uzun yıllar çalışma yapan Nuray Özel
+          Biyoenerji ve Reiki konusunda uzun yıllar çalışma yapan Nuray Özel
           Arkun NRY Koçluk ve Danışmanlık Merkezi Gültepe Mahallesi 719 sokakta
           davetlilerin katılımıyla açıldı. Açılışa Denizli Büyükşehir Belediye
           Başkanı Bülent Nuri Çavuşoğlu, Denizli Berberler ve Kuaförler Odası
@@ -37,7 +37,7 @@ export default function StaticPage() {
           Denizli Büyükşehir Belediye Başkanı Bülent Nuri Çavuşoğlu, Denizli
           Berberler ve Kuaförler Odası Başkanı Yakup Güleç ve Profesyonel Yaşam
           Koçu Nuray Özel Arkun kesti. Yaşam Koçu Arkun davetlilere danışmanlık
-          merkezini gezdirerek Reiki ve Bio Enerji hakkında bilgiler verdi.
+          merkezini gezdirerek Reiki ve Biyoenerji hakkında bilgiler verdi.
         </p>
         <hr />
         <h2>Deha 20 Gazetesi'nde Çıkan Açılış Haberimiz</h2>
@@ -51,13 +51,13 @@ export default function StaticPage() {
           />
         </div>
         <p className="px-4 text-sm text-center">
-          Bio Enerji ve Reiki konusunda uzun yıllar çalışma yapan Nuray Özel
+          Biyoenerji ve Reiki konusunda uzun yıllar çalışma yapan Nuray Özel
           Arkun, Nry Koçluk ve Danışmanlık Merkezi Gültepe Mahallesi 719 sokakta
           davetlilerin katılımıyla açıldı. Açılış kurdelesini Denizli Büyükşehir
           Belediye Başkanı Bülent Nuri Çavuşoğlu, Denizli Berberler ve Kuaförler
           Odası Başkanı Yakup Güleç ve Profesyonel Yaşam Koçu Nuray Özel Arkun
           kesti. Yaşam Koçu Arkun, davetlilere danışmanlık merkezini gezdirerek,
-          Reiki ve Bio Enerji hakkında bilgiler verdi.
+          Reiki ve Biyoenerji hakkında bilgiler verdi.
         </p>
         <div className="px-4 shadow-xl rounded-b-xl ">
           <img

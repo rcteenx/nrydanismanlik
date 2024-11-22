@@ -4,19 +4,19 @@ import SocialMedia from "@/components/sections/common/z-contact";
 
 export async function generateMetadata() {
   return {
-    title: "Danışmanlık Hizmetlerimizle İçsel Dengenizi Keşfedin",
+    title: "Danışmanlık Hizmetlerimiz",
   };
 }
 
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Danışmanlık Hizmetlerimizle İçsel Dengenizi Keşfedin">
+      <PageContent h1Title="Danışmanlık Hizmetlerimizle İçsel Dengenizi Keşfedin">
         <p>
           Hayatın getirdiği zorluklarla başa çıkmak ve daha sağlıklı, dengeli
           bir yaşam sürmek, çoğu zaman dışarıdan destek almayı gerektirir. Bizim
           amacımız, size bu yolculukta rehberlik etmek ve kişisel dönüşümünüzü
-          desteklemektir. Koçluk, Reiki, Bio Enerji, Trans Terapi ve Wellness
+          desteklemektir. Koçluk, Reiki, Biyoenerji, Trans Terapi ve Wellness
           gibi farklı alanlarda sunduğumuz danışmanlık hizmetleri ile zihinsel,
           duygusal ve fiziksel sağlığınızı iyileştirmenize yardımcı oluyoruz.
         </p>
@@ -43,14 +43,14 @@ export default function StaticPage() {
           </a>{" "}
           ve{" "}
           <a
-            href="/danismanlik/bio-enerji"
+            href="/danismanlik/biyoenerji"
             className="hover:text-violet-800 gradientTransition"
           >
-            Bio Enerji
+            Biyoenerji
           </a>
         </h3>
         <p>
-          Reiki ve Bio Enerji terapileri ile enerji akışını dengeleyerek,
+          Reiki ve Biyoenerji terapileri ile enerji akışını dengeleyerek,
           bedeninizin ve zihninizin daha uyumlu çalışmasını sağlıyoruz. Bu
           terapiler, hem ruhsal hem de fiziksel sağlığınız üzerinde
           derinlemesine olumlu etkiler yaratır.

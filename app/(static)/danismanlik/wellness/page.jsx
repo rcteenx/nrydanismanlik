@@ -11,7 +11,7 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Wellness: Bütüncül Sağlık ve İyi Yaşam">
+      <PageContent h1Title="Wellness: Bütüncül Sağlık ve İyi Yaşam">
         <h3>Wellness nedir?</h3>
         <p>
           Wellness, fiziksel, zihinsel ve ruhsal sağlığı dengelemeyi amaçlayan

@@ -2,7 +2,7 @@ import GalleryContent from "@/components/templates/galeryContent";
 
 export default function ImageGallery({ galeri }) {
   return (
-    <GalleryContent h2Title={galeri.h2}>
+    <GalleryContent h1Title={galeri.h2}>
       {galeri.categories.map((c, index) => (
         <div key={index}>
           <h3>{c.h3}</h3>

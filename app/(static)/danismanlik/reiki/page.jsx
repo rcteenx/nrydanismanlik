@@ -11,7 +11,7 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Reiki: Şifa Sanatı ve Enerji Dengesi">
+      <PageContent h1Title="Reiki: Şifa Sanatı ve Enerji Dengesi">
         <h3>Reiki nedir?</h3>
         <p>
           Reiki, Japonca kökenli bir kelime olup "evrensel yaşam enerjisi"

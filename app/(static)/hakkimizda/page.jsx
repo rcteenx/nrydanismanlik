@@ -5,14 +5,14 @@ import { nrydanismanlik } from "@/public/assets/images";
 
 export async function generateMetadata() {
   return {
-    title: "NRY DANIŞMANLIK HAKKINDA",
+    title: "Hakkımızda",
   };
 }
 
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Nry Koçluk ve Danışmanlık Merkezi">
+      <PageContent h1Title="Nry Koçluk ve Danışmanlık Merkezi">
         <div className="flex justify-center items-center p-8 shadow-xl rounded-b-xl">
           <img
             src={nrydanismanlik.src}
@@ -26,7 +26,9 @@ export default function StaticPage() {
         <ul>
           <li>Reiki Grandmaster Teacher 8. Seviye </li>
           <li>Işık Hocası / Eğitim Uzmanı</li>
-          <li>Bioenerji Biyomanyetizma 1. Seviye Uygulayıcı / Eğitim Uzmanı</li>
+          <li>
+            Biyoenerji Biyomanyetizma 1. Seviye Uygulayıcı / Eğitim Uzmanı
+          </li>
           <li>Trans Terapi Uygulayıcı / Eğitim Uzmanı</li>
           <li>Birinci Seviye Hipnoterapi Uygulayıcı </li>
         </ul>

@@ -9,7 +9,7 @@ import ImageGallery from "@/components/sections/gallery/images";
 
 export async function generateMetadata() {
   return {
-    title: "FOTOĞRAF GALERİSİ",
+    title: "Fotoğraf Galerimiz",
   };
 }
 

@@ -22,16 +22,16 @@ const titleStyles = cva(
 
 export default function GalleryContent({
   bgColor,
-  h2Title,
+  h1Title,
   children,
   ...props
 }) {
   return (
     <section className="mx-auto md:my-4">
       <div className={cn(titleStyles({ bgColor }))}>
-        <h2 className="mx-auto inline-block py-1 border-coral-red border-b text-center">
-          {h2Title}
-        </h2>
+        <h1 className="mx-auto inline-block py-1 border-coral-red border-b text-center">
+          {h1Title}
+        </h1>
         {children}
       </div>
     </section>

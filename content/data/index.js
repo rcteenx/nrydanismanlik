@@ -31,10 +31,10 @@ export const consultancy = {
       imgOrder: "order-1",
       infoOrder: "order-2",
       info: [
-        "2021 yılında biovanyetik bioenerji ve yüksek frekans bioenerji uygulayıcılık ve eğitmenlik eğitimlerini tamamladıktan sonra 2023 2024 yıllarında mesleki yeterlilik kurumu eğitim uzmanlığı ve profesyonel koçluk alanlarında gerekli sınavları vererek resmi boyutta bu işleri yapmaya hak kazandım.",
-        "Biyoenerji nedir denildiğinde ise bedenin ruhen bedenen ve zihinsel olarak dengelenme halidir. Geçmişte zihinsel olarak yaşanan korku kaygı endişenin belli bir süreçten sonrasında organları sirayet ettiğini ve bedenin hastalandığı gözlemlenmektedir. Bedenin iyi hali ise ruhen bedenen zihnen dengede kalmaktır. ",
+        "2021 yılında biyomanyetik biyoenerji ve yüksek frekans biyoenerji uygulayıcılık ve eğitmenlik eğitimlerini tamamladım. 2023-24 yıllarında mesleki yeterlilik kurumu eğitim uzmanlığı ve profesyonel koçluk alanlarında gerekli sınavları vererek resmi boyutta bu işleri yapmaya hak kazandım.",
+        "Biyoenerji nedir denildiğinde ise bedenin ruhen bedenen ve zihinsel olarak dengelenme halidir. Geçmişte zihinsel olarak yaşanan korku kaygı endişenin belli bir süreçten sonrasında organları sirayet ettiğini ve bedenin hastalandığı gözlemlenmektedir. Bedenin iyi hali ise ruhen bedenen zihnen dengede kalmaktır.",
         "Biyoenerji kişinin ruhsal bedensel ve zihinsel olarak meridyenleri dengelenerek frekanslarının  olması  gereken sağlıklı seviyeye ulaşırken fiziki bedende “aura”daki negatif yüklerden dengelenme halidir.",
-        "Aslında ruhsal zihinsel bedensel mutsuz ve acı çeken halinin biyoenerji ile yine kişinin dengelenmiş enerjisidir kendisine dönmesidir. Meridyenlerin ve çakraların yani enerji kanallarının tortularının dengelenerek  sağlıklı bir akışta kalmasıdır.",
+        "Aslında ruhsal zihinsel bedensel mutsuz ve acı çeken halinin biyoenerji ile yine kişinin dengelenmiş enerjisidir kendisine dönmesidir. Meridyenlerin ve çakraların yani enerji kanallarının tortularının dengelenerek sağlıklı bir akışta kalmasıdır.",
       ],
     },
   ],
@@ -65,7 +65,7 @@ export const StaticPages = [
         title: "Reiki",
         link: "danismanlik/reiki",
       },
-      { id: 3, title: "Bio Enerji", link: "danismanlik/bio-enerji" },
+      { id: 3, title: "Biyoenerji", link: "danismanlik/biyoenerji" },
       {
         id: 4,
         title: "Trans Terapi",

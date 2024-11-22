@@ -4,14 +4,14 @@ import SocialMedia from "@/components/sections/common/z-contact";
 
 export async function generateMetadata() {
   return {
-    title: "Atölye Çalışmalarımızla Kendinizi Keşfedin ve Dönüştürün",
+    title: "Atölye Çalışmalarımız",
   };
 }
 
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Atölye Çalışmalarımızla Kendinizi Keşfedin ve Dönüştürün">
+      <PageContent h1Title="Atölye Çalışmalarımızla Kendinizi Keşfedin ve Dönüştürün">
         <p>
           Hayatınızda değişim ve dönüşüm arayışında mısınız? Atölye çalışmaları,
           derinlemesine keşif yapmak ve kişisel gelişiminizi hızlandırmak için

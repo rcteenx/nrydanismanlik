@@ -4,14 +4,15 @@ import SocialMedia from "@/components/sections/common/z-contact";
 
 export async function generateMetadata() {
   return {
-    title: "Aile Dizimi: Geçmişten Gelen Bağları Şifalandırın",
+    title:
+      "Aile Dizimi ve Sistemik Dizimler: Geçmişten Gelen Bağları Şifalandırın",
   };
 }
 
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Aile Dizimi: Geçmişten Gelen Bağları Şifalandırın">
+      <PageContent h1Title="Aile Dizimi: Geçmişten Gelen Bağları Şifalandırın">
         <h3>Aile dizimi nedir?</h3>
         <p>
           Aile dizimi, aile sistemi içerisindeki bilinçdışı bağları ve

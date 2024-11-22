@@ -4,14 +4,14 @@ import SocialMedia from "@/components/sections/common/z-contact";
 
 export async function generateMetadata() {
   return {
-    title: "İLETİŞİM",
+    title: "İletişim",
   };
 }
 
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="NRY Koçluk ve Danışmanlık Merkezi - Denizli">
+      <PageContent h1Title="NRY Koçluk ve Danışmanlık Merkezi - Denizli">
         <div className="mx-auto rounded-lg bg-white text-center">
           <div className="p-4">
             <iframe

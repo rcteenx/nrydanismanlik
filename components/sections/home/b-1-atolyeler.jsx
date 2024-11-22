@@ -44,7 +44,7 @@ export default function Atolyeler() {
               <div className=" flex justify-center items-center">
                 <IconComponent name="systemic" size={64} color="white" />
               </div>
-              <h3 className="mb-[10px] font-semibold">Bio Enerji</h3>
+              <h3 className="mb-[10px] font-semibold">Biyoenerji</h3>
               <p className=" font-light leading-normal max-w-[300px] text-sm">
                 İçinizdeki doğal şifacıyı ortaya çıkarın
               </p>

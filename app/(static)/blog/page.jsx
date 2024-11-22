@@ -5,14 +5,14 @@ import SocialMedia from "@/components/sections/common/z-contact";
 
 export async function generateMetadata() {
   return {
-    title: "Nry Blog - Şifa ve Dönüşüm Yolculuğunuza Hoş Geldiniz",
+    title: "Nry Blog",
   };
 }
 
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Nry Blog - Şifa ve Dönüşüm Yolculuğunuza Hoş Geldiniz">
+      <PageContent h1Title="Nry Blog - Şifa ve Dönüşüm Yolculuğunuza Hoş Geldiniz">
         <p>
           Modern yaşamın yoğun temposunda kendimizi unutmak kolaydır. Ancak,
           gerçek mutluluğa ve içsel dengeye ulaşmak için hem bedenimize hem de

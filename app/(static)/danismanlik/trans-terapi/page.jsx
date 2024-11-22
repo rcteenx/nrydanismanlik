@@ -12,7 +12,7 @@ export default function StaticPage() {
   return (
     <>
       <PageContent
-        h2Title="Trans Terapi: Bilinçaltına Yolculuk ve Ruhsal Şifa
+        h1Title="Trans Terapi: Bilinçaltına Yolculuk ve Ruhsal Şifa
 "
       >
         <h3>Trans terapi nedir?</h3>

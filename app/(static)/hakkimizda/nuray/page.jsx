@@ -12,7 +12,7 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Nuray Özel Arkun">
+      <PageContent h1Title="Nuray Özel Arkun">
         <div className="flex justify-center items-center p-4 rounded-xl bg-xpurple">
           <div className="p-4 shadow-xl rounded-b-xl ">
             <img
@@ -28,7 +28,9 @@ export default function StaticPage() {
         <ul>
           <li>Reiki Grandmaster Teacher 8. Seviye </li>
           <li>Işık Hocası / Eğitim Uzmanı</li>
-          <li>Bioenerji Biyomanyetizma 1. Seviye Uygulayıcı / Eğitim Uzmanı</li>
+          <li>
+            Biyoenerji Biyomanyetizma 1. Seviye Uygulayıcı / Eğitim Uzmanı
+          </li>
           <li>Trans Terapi Uygulayıcı / Eğitim Uzmanı</li>
           <li>Birinci Seviye Hipnoterapi Uygulayıcı </li>
         </ul>
