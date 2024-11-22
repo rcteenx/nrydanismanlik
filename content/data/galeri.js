@@ -1,8 +1,8 @@
 export const acilisGalerisi = {
-  h2: "Nry Danışmanlık Açılış Fotoğraf Galerisi",
+  h2: "Nry Koçluk ve Danışmanlık Merkezi Açılış Fotoğraf Galerisi",
   categories: [
     {
-      h3: "Nry Danışmanlık Kurdele Kesimi",
+      h3: "Nry Koçluk ve Danışmanlık Merkezi Kurdele Kesimi",
       items: [
         {
           title: "Kurdele Kesimi - 1",
@@ -15,7 +15,7 @@ export const acilisGalerisi = {
       ],
     },
     {
-      h3: "Nry Danışmanlık Ofis Gezisi",
+      h3: "Nry Koçluk ve Danışmanlık Merkezi Ofis Gezisi",
       items: [
         {
           title: "Ofis Gezisi - 1",
@@ -32,7 +32,7 @@ export const acilisGalerisi = {
       ],
     },
     {
-      h3: "Nry Danışmanlık Açılş Hatırası",
+      h3: "Nry Koçluk ve Danışmanlık Merkezi Açılş Hatırası",
       items: [
         {
           title: "Açılş Hatırası - 1",
@@ -57,7 +57,7 @@ export const acilisGalerisi = {
       ],
     },
     {
-      h3: "Nry Danışmanlık Nuray Özel Arkun",
+      h3: "Nry Koçluk ve Danışmanlık Merkezi - Nuray Özel Arkun",
       items: [
         {
           title: "Nuray Özel Arkun - 1",
@@ -138,7 +138,7 @@ export const aileDizimiGalerisi = {
       ],
     },
     {
-      h3: "Aile Dizimi - Nry Danışmanlık",
+      h3: "Aile Dizimi - Koçluk ve Danışmanlık Merkezi",
       items: [
         {
           title: "Aile Dizimi - Nuray - 1",

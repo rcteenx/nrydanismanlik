@@ -12,11 +12,11 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="Nry Danışmanlık">
+      <PageContent h2Title="Nry Koçluk ve Danışmanlık Merkezi">
         <div className="flex justify-center items-center p-8 shadow-xl rounded-b-xl">
           <img
             src={nrydanismanlik.src}
-            alt="Nry Danışmanlık"
+            alt="Nry Koçluk ve Danışmanlık Merkezi"
             width="w-full"
             height={400}
             className="rounded-xl"

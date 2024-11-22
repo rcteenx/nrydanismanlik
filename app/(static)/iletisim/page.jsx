@@ -11,7 +11,7 @@ export async function generateMetadata() {
 export default function StaticPage() {
   return (
     <>
-      <PageContent h2Title="NRY Danışmanlık - Denizli">
+      <PageContent h2Title="NRY Koçluk ve Danışmanlık Merkezi - Denizli">
         <div className="mx-auto rounded-lg bg-white text-center">
           <div className="p-4">
             <iframe

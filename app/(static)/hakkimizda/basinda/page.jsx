@@ -29,7 +29,7 @@ export default function StaticPage() {
         <h3>DENİZLİ’DE NRY DANIŞMANLIK MERKEZİ AÇILDI</h3>
         <p>
           Bio Enerji ve Reiki konusunda uzun yıllar çalışma yapan Nuray Özel
-          Arkun NRY Danışmanlık Merkezi Gültepe Mahallesi 719 sokakta
+          Arkun NRY Koçluk ve Danışmanlık Merkezi Gültepe Mahallesi 719 sokakta
           davetlilerin katılımıyla açıldı. Açılışa Denizli Büyükşehir Belediye
           Başkanı Bülent Nuri Çavuşoğlu, Denizli Berberler ve Kuaförler Odası
           Başkanı Yakup Güleç ve çok sayıda davetli katıldı. Organizasyon da
@@ -44,15 +44,15 @@ export default function StaticPage() {
         <div className="px-4 shadow-xl rounded-b-xl ">
           <img
             src={deha20acilis1.src}
-            alt="Deha 20 Gazetesi - Nry Danışmanlık Açılış Görseli"
-            title="Deha 20 Gazetesi - Nry Danışmanlık Açılış Haberi"
+            alt="Deha 20 Gazetesi - Nry Koçluk ve Danışmanlık Merkezi Açılış Görseli"
+            title="Deha 20 Gazetesi - Nry Koçluk ve Danışmanlık Merkezi Açılış Haberi"
             width="w-full"
             className="rounded-xl"
           />
         </div>
         <p className="px-4 text-sm text-center">
           Bio Enerji ve Reiki konusunda uzun yıllar çalışma yapan Nuray Özel
-          Arkun, NRY Danışmanlık Merkezi Gültepe Mahallesi 719 sokakta
+          Arkun, Nry Koçluk ve Danışmanlık Merkezi Gültepe Mahallesi 719 sokakta
           davetlilerin katılımıyla açıldı. Açılış kurdelesini Denizli Büyükşehir
           Belediye Başkanı Bülent Nuri Çavuşoğlu, Denizli Berberler ve Kuaförler
           Odası Başkanı Yakup Güleç ve Profesyonel Yaşam Koçu Nuray Özel Arkun
@@ -62,8 +62,8 @@ export default function StaticPage() {
         <div className="px-4 shadow-xl rounded-b-xl ">
           <img
             src={deha20acilis2.src}
-            alt="Deha 20 Gazetesi - Nry Danışmanlık Açılış - Tam Boy"
-            title="Deha 20 Gazetesi - Nry Danışmanlık Açılış Haberi - Tam Boy"
+            alt="Deha 20 Gazetesi - Nry Koçluk ve Danışmanlık Merkezi Açılış - Tam Boy"
+            title="Deha 20 Gazetesi - Nry Koçluk ve Danışmanlık Merkezi Açılış Haberi - Tam Boy"
             width="w-full"
             className="rounded-xl"
           />

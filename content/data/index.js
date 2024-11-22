@@ -1,25 +1,3 @@
-export const barInfo = {
-  h2: "Nry Danışmanlık: Farkındalık Geliştirme ve Sistemik Çalışmaları",
-  items: [
-    {
-      title: "Çalışma",
-      info: "25 yıl",
-    },
-    {
-      title: "Okul",
-      info: "4",
-    },
-    {
-      title: "Katılımcı",
-      info: "1.000",
-    },
-    {
-      title: "Atölye Çalışması",
-      info: "100",
-    },
-  ],
-};
-
 export const consultancy = {
   h2: "DANIŞMANLIK ALANLARIMIZ",
   items: [
@@ -79,15 +57,15 @@ export const StaticPages = [
     pages: [
       {
         id: 1,
-        title: "Reiki",
-        link: "danismanlik/reiki",
+        title: "Koçluk",
+        link: "danismanlik/kocluk",
       },
       {
         id: 2,
-        title: "Koçluk",
-        link: "danismanlik/kurumsal",
+        title: "Reiki",
+        link: "danismanlik/reiki",
       },
-      { id: 3, title: "Bio Enerji", link: "hizmetlerimiz/bio-enerji" },
+      { id: 3, title: "Bio Enerji", link: "danismanlik/bio-enerji" },
       {
         id: 4,
         title: "Trans Terapi",
@@ -113,7 +91,7 @@ export const StaticPages = [
       {
         id: 2,
         title: "Kişisel Gelişim",
-        link: "atolyeler/kişisel-gelisim",
+        link: "atolyeler/kisisel-gelisim",
       },
     ],
   },

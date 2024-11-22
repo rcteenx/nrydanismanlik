@@ -1,13 +1,13 @@
 // please update required information
 const siteMetadata = {
-  title: "NRY Danışmanlık",
+  title: "NRY Koçluk ve Danışmanlık Merkezi",
   author: "rcteenx",
   headerTitle: "... ",
   description: "... ",
   language: "tr-TR",
-  siteUrl: "https://nrydanismanlik.com",
+  siteUrl: "https://nrykocluk.com",
   siteLogo: "/nry-single.png",
-  email: "info@nrydanismanlik.com",
+  email: "info@nrykocluk.com",
 };
 
 module.exports = siteMetadata;
