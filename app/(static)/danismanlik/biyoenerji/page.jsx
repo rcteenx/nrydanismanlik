@@ -4,7 +4,7 @@ import SocialMedia from "@/components/sections/common/z-contact";
 
 export async function generateMetadata() {
   return {
-    title: "enerji: Doğal Şifa ve Enerji Dengeleme",
+    title: "Biyoenerji: Doğal Şifa ve Enerji Dengeleme",
   };
 }
 
