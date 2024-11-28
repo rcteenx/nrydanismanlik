@@ -16,13 +16,14 @@ export default function StaticPage() {
         <div className="flex justify-center items-center p-4 rounded-xl bg-xpurple">
           <div className="flex justify-center items-center p-4 rounded-xl bg-black">
             <iframe
-              src="https://www.facebook.com/plugins/video.php?height=314&href=https://fb.watch/v_CGAKICtm/%2F&show_text=false&width=560"
               width="560"
-              height="314"
-              scrolling="no"
+              height="315"
+              src="https://www.youtube.com/embed/NjTPaB-9pv8?si=7SZty9VXU1OMS-Dc"
+              title="YouTube video player"
               frameBorder="0"
-              allowFullScreen={true}
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
             ></iframe>
           </div>
         </div>
